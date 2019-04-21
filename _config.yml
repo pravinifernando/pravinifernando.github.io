@@ -4,8 +4,8 @@ baseurl: "/"
 
 markdown: kramdown
 
-# tracking_id: UA-138751175-1
-google_analytics: UA-138751175-1
+tracking_id: UA-138751175-1
+#google_analytics: UA-138751175-1
 
 sass:
     style: compressed
