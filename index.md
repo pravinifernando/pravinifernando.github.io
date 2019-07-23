@@ -15,7 +15,7 @@ Currently, I'm part of the [Mativetsky Lab](http://www.mativetskylab.com) @ SUNY
 
 ## Publications
 
-4. [Colocalized nanoscale electrical and compositional mapping of organic solar cells]() by Jeremy S. Mehta, **Pravini S. Fernando**, John L. Grazul, Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2019).**[Accepted]**
+4. [Colocalized nanoscale electrical and compositional mapping of organic solar cells](https://pubs.acs.org/doi/abs/10.1021/acsaem.9b00829) by Jeremy S. Mehta, **Pravini S. Fernando**, John L. Grazul, Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2019).
 3. [Nonlinear optical properties of photonic crystals](https://www.researchgate.net/publication/324388232_Nonlinear_optical_properties_of_photonic_crystals) by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: World Scientific News, volume 97, 1--27 (2018).
 2. [Modelling All-Optical Switching and Limiting Properties of AlAs Photonic Crystals](https://www.researchgate.net/publication/322851853_Modelling_All-Optical_Switching_and_Limiting_Properties_of_AlAs_Photonic_Crystals). by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: International Letters to Chemistry Physics and Astronomy, volume 77, 1-14 (2018).
 1. [Simulating all optical switching based on 2-D nonlinear GaAs photonic crystals with side coupled microcavities](https://www.researchgate.net/publication/317015262_Simulating_all_optical_switching_based_on_2-D_nonlinear_GaAs_photonic_crystals_with_side_coupled_microcavities) by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: 2017 International Conference on Computational Modeling & Simulation (ICCMS-2017).
