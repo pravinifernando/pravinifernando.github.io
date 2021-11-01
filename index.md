@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="picture.jpg" style="height:200px;width:165px;padding:px;">
+<img class="profile-picture" src="picture.jpg" style="height:200px;width:160px;padding:px;">
 
 
 Hi! My name is [Pravini Fernando]() and I am a PHD candidate in _Physics_ at the State University of New York, Binghamton. I completed my bachelors degree in science from University of Colombo, Sri Lanka specializing in _Physics_.
@@ -15,6 +15,8 @@ Currently, I'm part of the [Mativetsky Lab](http://www.mativetskylab.com) @ SUNY
 
 ## Publications
 
+6. [Freeing Organic Semiconductor Nanowires from Nanoporous Aluminum Oxide Templates: Effects on Morphology, Crystal Structure, and Molecular Aggregation](https://pubs.acs.org/doi/10.1021/acs.cgd.0c01316) by Alexander M. Haruk, **Pravini S. Fernando**, Detlef-M. Smilgies, Jeffrey M. Mativetsky. In: Crystal Growth Design (2021)
+5. [Tuning Organic Semiconductor Alignment and Aggregation via Nanoconfinement](https://pubs.acs.org/doi/10.1021/acs.jpcc.0c06270) by Alexander M. Haruk, Collen Z. Leng, **Pravini S. Fernando**, Detlef-M. Smilgies,Yueh-Lin Loo, Jeffrey M. Mativetsky. In: The Journal of Physical Chemistry C (2020).
 4. [Colocalized nanoscale electrical and compositional mapping of organic solar cells](https://pubs.acs.org/doi/abs/10.1021/acsaem.9b00829) by Jeremy S. Mehta, **Pravini S. Fernando**, John L. Grazul, Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2019).
 3. [Nonlinear optical properties of photonic crystals](https://www.researchgate.net/publication/324388232_Nonlinear_optical_properties_of_photonic_crystals) by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: World Scientific News, volume 97, 1--27 (2018).
 2. [Modelling All-Optical Switching and Limiting Properties of AlAs Photonic Crystals](https://www.researchgate.net/publication/322851853_Modelling_All-Optical_Switching_and_Limiting_Properties_of_AlAs_Photonic_Crystals). by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: International Letters to Chemistry Physics and Astronomy, volume 77, 1-14 (2018).
