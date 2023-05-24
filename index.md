@@ -11,10 +11,14 @@ Hi! My name is [Pravini Fernando]() and I am a PHD candidate in _Physics_ at the
 
 ## Research
 
-Currently, I'm part of the [Mativetsky Lab](http://www.mativetskylab.com) @ SUNY Binghamton under the supervision of Professor [Jeffrey M. Mativetsky](http://www.mativetskylab.com/people/jeffrey-mativetsky) where my current research work focuses on **organic photovoltaics**. In terms of research experience, before my PhD, during my undergraduate years-I have worked in the area of non-linear photonic simulations with Professor [K.A.I.L. Wijewardena Gamalath](https://www.researchgate.net/profile/Kail_Gamalath).
+Currently, I'm part of the [Mativetsky Lab](http://www.mativetskylab.com) @ SUNY Binghamton under the supervision of Professor [Jeffrey M. Mativetsky](http://www.mativetskylab.com/people/jeffrey-mativetsky). My PhD research is focused on investigating the connections between morphology, molecular structure, and orientation of organic photovoltaic (OPV) materials and their impact on electrical connectivity, mainly using grazing incidence X-ray diffraction (GIXD) and conductive atomic force microscopy (C-AFM) techniques. 
+
+<!-- In terms of research experience, before my PhD, during my undergraduate years-I have worked in the area of non-linear photonic simulations with Professor [K.A.I.L. Wijewardena Gamalath](https://www.researchgate.net/profile/Kail_Gamalath). -->
+
 
 ## Publications
 
+9. [Unambiguous Measurement of Local Hole Current in Organic Semiconductors Using Conductive Atomic Force Microscopy](https://pubs.acs.org/doi/10.1021/acs.jpcc.3c01651). By **Pravini S. Fernando** and Jeffrey M. Mativetsky. In: The Journal of Physical Chemistry C (2023). 
 8. [Mixed molecular orientations promote charge transport in bulk heterojunction solar cells](https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc01234k). By **Pravini S. Fernando**, Detlef-M. Smilgies, and Jeffrey M. Mativetsky. In: Chemical Communications (2022).
 7. [Probing the Contribution of Lateral Pathways to Out-of-Plane Charge Transport in Organic Bulk Heterojunctions](https://onlinelibrary.wiley.com/doi/abs/10.1002/aelm.202200156). By **Pravini S. Fernando**, Jeremy S. Mehta, Detlef-M. Smilgies, and Jeffrey M. Mativetsky. In: Advanced Electronic Materials (2022).
 6. [Freeing Organic Semiconductor Nanowires from Nanoporous Aluminum Oxide Templates: Effects on Morphology, Crystal Structure, and Molecular Aggregation](https://pubs.acs.org/doi/10.1021/acs.cgd.0c01316) by Alexander M. Haruk, **Pravini S. Fernando**, Detlef-M. Smilgies, Jeffrey M. Mativetsky. In: Crystal Growth Design (2021).
