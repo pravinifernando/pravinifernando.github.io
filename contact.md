@@ -3,7 +3,7 @@ layout: default
 is_contact: true
 ---
 
-* Email: [pfernan4@binghamton.edu](mailto:pfernan4@binghamton.edu)
+* Email: [pfernan AT illinois DOT EDU]()
 
 ---
 
