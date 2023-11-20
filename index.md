@@ -31,7 +31,7 @@ and conductive atomic force microscopy (C-AFM) techniques.
 
 ## Publications
 
-10. [Remarkable Electrical Connectivity in the Acceptor Phase of Y6- and Fullerene-based Bulk Hetero- junction Solar Cells](). By **Pravini S. Fernando**, and Jeffrey M. Mativetsky. In: ACS Applied Energy Materials, `accepted` (2023)
+10. [Remarkable Electrical Connectivity in the Acceptor Phase of Y6- and Fullerene-based Bulk Heterojunction Solar Cells](https://pubs.acs.org/doi/10.1021/acsaem.3c01734). By **Pravini S. Fernando**, and Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2023).
 9. [Unambiguous Measurement of Local Hole Current in Organic Semiconductors Using Conductive Atomic Force Microscopy](https://pubs.acs.org/doi/10.1021/acs.jpcc.3c01651). By **Pravini S. Fernando** and Jeffrey M. Mativetsky. In: The Journal of Physical Chemistry C (2023). 
 8. [Mixed molecular orientations promote charge transport in bulk heterojunction solar cells](https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc01234k). By **Pravini S. Fernando**, Detlef-M. Smilgies, and Jeffrey M. Mativetsky. In: Chemical Communications (2022).
 7. [Probing the Contribution of Lateral Pathways to Out-of-Plane Charge Transport in Organic Bulk Heterojunctions](https://onlinelibrary.wiley.com/doi/abs/10.1002/aelm.202200156). By **Pravini S. Fernando**, Jeremy S. Mehta, Detlef-M. Smilgies, and Jeffrey M. Mativetsky. In: Advanced Electronic Materials (2022).
