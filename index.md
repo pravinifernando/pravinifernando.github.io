@@ -29,18 +29,18 @@ and conductive atomic force microscopy (C-AFM) techniques.
 <!-- In terms of research experience, before my PhD, during my undergraduate years-I have worked in the area of non-linear photonic simulations with Professor [K.A.I.L. Wijewardena Gamalath](https://www.researchgate.net/profile/Kail_Gamalath). -->
 
 
-## Publications
+## Selected Publications
 
-10. [Remarkable Electrical Connectivity in the Acceptor Phase of Y6- and Fullerene-based Bulk Heterojunction Solar Cells](https://pubs.acs.org/doi/10.1021/acsaem.3c01734). By **Pravini S. Fernando**, and Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2023).
-9. [Unambiguous Measurement of Local Hole Current in Organic Semiconductors Using Conductive Atomic Force Microscopy](https://pubs.acs.org/doi/10.1021/acs.jpcc.3c01651). By **Pravini S. Fernando** and Jeffrey M. Mativetsky. In: The Journal of Physical Chemistry C (2023). 
-8. [Mixed molecular orientations promote charge transport in bulk heterojunction solar cells](https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc01234k). By **Pravini S. Fernando**, Detlef-M. Smilgies, and Jeffrey M. Mativetsky. In: Chemical Communications (2022).
-7. [Probing the Contribution of Lateral Pathways to Out-of-Plane Charge Transport in Organic Bulk Heterojunctions](https://onlinelibrary.wiley.com/doi/abs/10.1002/aelm.202200156). By **Pravini S. Fernando**, Jeremy S. Mehta, Detlef-M. Smilgies, and Jeffrey M. Mativetsky. In: Advanced Electronic Materials (2022).
-6. [Freeing Organic Semiconductor Nanowires from Nanoporous Aluminum Oxide Templates: Effects on Morphology, Crystal Structure, and Molecular Aggregation](https://pubs.acs.org/doi/10.1021/acs.cgd.0c01316) by Alexander M. Haruk, **Pravini S. Fernando**, Detlef-M. Smilgies, Jeffrey M. Mativetsky. In: Crystal Growth Design (2021).
-5. [Tuning Organic Semiconductor Alignment and Aggregation via Nanoconfinement](https://pubs.acs.org/doi/10.1021/acs.jpcc.0c06270) by Alexander M. Haruk, Collen Z. Leng, **Pravini S. Fernando**, Detlef-M. Smilgies,Yueh-Lin Loo, Jeffrey M. Mativetsky. In: The Journal of Physical Chemistry C (2020).
-4. [Colocalized nanoscale electrical and compositional mapping of organic solar cells](https://pubs.acs.org/doi/abs/10.1021/acsaem.9b00829) by Jeremy S. Mehta, **Pravini S. Fernando**, John L. Grazul, Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2019).
-3. [Nonlinear optical properties of photonic crystals](https://www.researchgate.net/publication/324388232_Nonlinear_optical_properties_of_photonic_crystals) by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: World Scientific News, volume 97, 1--27 (2018).
-2. [Modelling All-Optical Switching and Limiting Properties of AlAs Photonic Crystals](https://www.researchgate.net/publication/322851853_Modelling_All-Optical_Switching_and_Limiting_Properties_of_AlAs_Photonic_Crystals). by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: International Letters to Chemistry Physics and Astronomy, volume 77, 1-14 (2018).
-1. [Simulating all optical switching based on 2-D nonlinear GaAs photonic crystals with side coupled microcavities](https://www.researchgate.net/publication/317015262_Simulating_all_optical_switching_based_on_2-D_nonlinear_GaAs_photonic_crystals_with_side_coupled_microcavities) by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: 2017 International Conference on Computational Modeling & Simulation (ICCMS-2017).
++ [Tuning the Solution Aggregate Structure of a PM7-Based Conjugated Polymer to Enable Green Solvent
+Processing of Organic Solar Cells](https://pubs.acs.org/doi/10.1021/acs.chemmater.3c03055). By Azzaya Khasbaatar, Austin L. Jones, **Pravini S. Fernando**, Hiroaki
+Sai, Chenhui Zhu, Eliot Gann, John R. Reynolds, and Ying Diao. In:ACS Chemical Materials (2024).
++ [Remarkable Electrical Connectivity in the Acceptor Phase of Y6- and Fullerene-based Bulk Heterojunction Solar Cells](https://pubs.acs.org/doi/10.1021/acsaem.3c01734). By **Pravini S. Fernando**, and Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2023).
++ [Unambiguous Measurement of Local Hole Current in Organic Semiconductors Using Conductive Atomic Force Microscopy](https://pubs.acs.org/doi/10.1021/acs.jpcc.3c01651). By **Pravini S. Fernando** and Jeffrey M. Mativetsky. In: The Journal of Physical Chemistry C (2023). 
++ [Mixed molecular orientations promote charge transport in bulk heterojunction solar cells](https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc01234k). By **Pravini S. Fernando**, Detlef-M. Smilgies, and Jeffrey M. Mativetsky. In: Chemical Communications (2022).
++ [Probing the Contribution of Lateral Pathways to Out-of-Plane Charge Transport in Organic Bulk Heterojunctions](https://onlinelibrary.wiley.com/doi/abs/10.1002/aelm.202200156). By **Pravini S. Fernando**, Jeremy S. Mehta, Detlef-M. Smilgies, and Jeffrey M. Mativetsky. In: Advanced Electronic Materials (2022).
++ [Freeing Organic Semiconductor Nanowires from Nanoporous Aluminum Oxide Templates: Effects on Morphology, Crystal Structure, and Molecular Aggregation](https://pubs.acs.org/doi/10.1021/acs.cgd.0c01316) by Alexander M. Haruk, **Pravini S. Fernando**, Detlef-M. Smilgies, Jeffrey M. Mativetsky. In: Crystal Growth Design (2021).
++ [Tuning Organic Semiconductor Alignment and Aggregation via Nanoconfinement](https://pubs.acs.org/doi/10.1021/acs.jpcc.0c06270) by Alexander M. Haruk, Collen Z. Leng, **Pravini S. Fernando**, Detlef-M. Smilgies,Yueh-Lin Loo, Jeffrey M. Mativetsky. In: The Journal of Physical Chemistry C (2020).
++ [Colocalized nanoscale electrical and compositional mapping of organic solar cells](https://pubs.acs.org/doi/abs/10.1021/acsaem.9b00829) by Jeremy S. Mehta, **Pravini S. Fernando**, John L. Grazul, Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2019).
 
 
 ## Education
@@ -64,7 +64,7 @@ and conductive atomic force microscopy (C-AFM) techniques.
 - Graduate Teaching/Research Assistant (Physics), Harpur College, SUNY Binghamton. (Fall 2017 - Fall 2023)
 - Temporary Lecturer, Department of Physics, University of Colombo. (2017)
 
-
+<br/><br/>
 
 
 

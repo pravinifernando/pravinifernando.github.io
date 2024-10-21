@@ -1,8 +1,8 @@
 - name: "Contact"
   link: "contact"
 
-- name: "CV"
-  link: "pravini_cv.pdf"
-
 - name: "About"
   link: "/"
+
+# - name: "CV"
+#  link: "pravini_cv.pdf"
