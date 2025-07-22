@@ -1,45 +1,122 @@
 ---
 layout: default
+title: "Fernando Research Group"
 ---
 
-## About Me
+<div class="home-intro">
+    <div class="group-overview">
+        <p class="lead">The Fernando Research Group explores sustainable organic electronic material systems, with a focus on understanding how processing conditions impact local structure and electronic function.</p>
+        
+        <div class="affiliation">
+            Department of Physics & Astronomy, Union College
+        </div>
+    </div>
+</div>
 
-<img class="profile-picture" src="picture.jpg" style="height:200px;width:165px;padding:px;">
+<div class="research-directions">
+    <h2>Research Directions</h2>
+    
+    <div class="research-grid">
+        <div class="research-card">
+            <div class="research-image-section">
+                <img src="/assets/img/research/nanoscale_characterization.jpg" alt="Nanoscale Characterization" onerror="this.style.display='none'">
+            </div>
+            <div class="research-content">
+                <h3>Nanoscale Characterization</h3>
+                <p>We use advanced characterization techniques to study local charge transport and morphological variation at the nanoscale in organic electronic materials.</p>
+            </div>
+            <div class="research-details">
+                <div class="key-techniques">
+                    <strong>Key Techniques:</strong>
+                    <ul>
+                        <li>Conductive Atomic Force Microscopy (c-AFM)</li>
+                        <li>Scanning Probe Microscopy (SPM)</li>
+                        <li>Electrical property mapping</li>
+                    </ul>
+                </div>
+                
+                <div class="recent-work">
+                    <strong>Recent Work:</strong>
+                    <ul>
+                        <li><a href="https://pubs.acs.org/doi/10.1021/acsaem.3c01734">Y6 Electrical Connectivity</a> – <em>ACS Applied Energy Materials</em> (2023)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="research-card">
+            <div class="research-image-section">
+                <img src="/assets/img/research/processing_structure.jpg" alt="Processing & Structure Control" onerror="this.style.display='none'">
+            </div>
+            <div class="research-content">
+                <h3>Processing & Structure Control</h3>
+                <p>We investigate how solution processing conditions influence film morphology and electronic performance in organic photovoltaics and semitransparent electrodes.</p>
+            </div>
+            <div class="research-details">
+                <div class="key-techniques">
+                    <strong>Research Focus:</strong>
+                    <ul>
+                        <li>Solution processing optimization</li>
+                        <li>GIWAXS structural characterization</li>
+                        <li>Thin-film fabrication and control</li>
+                    </ul>
+                </div>
+                
+                <div class="recent-work">
+                    <strong>Recent Work:</strong>
+                    <ul>
+                        <li><a href="https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202414632">Lyotropic Liquid Crystal Assembly</a> – <em>Advanced Materials</em> (2025)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="research-card">
+            <div class="research-image-section">
+                <img src="/assets/img/research/sustainable_electronics.jpg" alt="Sustainable Electronics" onerror="this.style.display='none'">
+            </div>
+            <div class="research-content">
+                <h3>Sustainable Electronics</h3>
+                <p>We develop environmentally conscious strategies for processing organic electronic materials, focusing on green solvents and sustainable fabrication methods.</p>
+            </div>
+            <div class="research-details">
+                <div class="key-techniques">
+                    <strong>Research Focus:</strong>
+                    <ul>
+                        <li>Green solvent processing</li>
+                        <li>PEDOT:PSS sustainable formulation</li>
+                        <li>Environmentally friendly fabrication</li>
+                    </ul>
+                </div>
+                
+                <div class="recent-work">
+                    <strong>Recent Work:</strong>
+                    <ul>
+                        <li><a href="https://pubs.acs.org/doi/10.1021/acs.chemmater.3c03055">Green Solvent Processing</a> – <em>Chemistry of Materials</em> (2024)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-Hi! My name is [Pravini Fernando]() and I am a PHD candidate in _Physics_ at the State University of New York, Binghamton. I completed my bachelors degree in science from University of Colombo, Sri Lanka specializing in _Physics_.
-
-## Research
-
-Currently, I'm part of the [Mativetsky Lab](http://www.mativetskylab.com) @ SUNY Binghamton under the supervision of Professor [Jeffrey M. Mativetsky](http://www.mativetskylab.com/people/jeffrey-mativetsky) where my current research work focuses on **organic photovoltaics**. In terms of research experience, before my PhD, during my undergraduate years-I have worked in the area of non-linear photonic simulations with Professor [K.A.I.L. Wijewardena Gamalath](https://www.researchgate.net/profile/Kail_Gamalath).
-
-## Publications
-
-4. [Colocalized nanoscale electrical and compositional mapping of organic solar cells](https://pubs.acs.org/doi/abs/10.1021/acsaem.9b00829) by Jeremy S. Mehta, **Pravini S. Fernando**, John L. Grazul, Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2019).
-3. [Nonlinear optical properties of photonic crystals](https://www.researchgate.net/publication/324388232_Nonlinear_optical_properties_of_photonic_crystals) by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: World Scientific News, volume 97, 1--27 (2018).
-2. [Modelling All-Optical Switching and Limiting Properties of AlAs Photonic Crystals](https://www.researchgate.net/publication/322851853_Modelling_All-Optical_Switching_and_Limiting_Properties_of_AlAs_Photonic_Crystals). by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: International Letters to Chemistry Physics and Astronomy, volume 77, 1-14 (2018).
-1. [Simulating all optical switching based on 2-D nonlinear GaAs photonic crystals with side coupled microcavities](https://www.researchgate.net/publication/317015262_Simulating_all_optical_switching_based_on_2-D_nonlinear_GaAs_photonic_crystals_with_side_coupled_microcavities) by **Pravini S. Fernando** and K.A.I.L. Wijewardena Gamalath. In: 2017 International Conference on Computational Modeling & Simulation (ICCMS-2017).
-
-
-## Education
-
-- PhD. Physics, [State University of New York(SUNY) Binghamton](https://www.binghamton.edu){:target="blank"}. (Fall 2017-Present)
-- Bsc. Special Degree in Physics(`First Class Hons.`), [University of Colombo](http://www.cmb.ac.lk){:target="blank"}, Sri Lanka. (2017)
-- GCE Advance Levels(A/Ls), [Visakha Vidayala](http://www.visakhav.org){:target="blank"}, Colombo-05, Sri Lanka. (2009-2011)
-- GCE Ordinary Levels(O/Ls), [Holy Family Convent](http://hfcb.lk){:target="blank"}, Colombo-04, Sri Lanka. (1998-2008)
-
-## Awards and Scholarships
-
-1. Harpur First Year Graduate Award, SUNY Binghamton. (2017)
-2. Dr. C. A. Hewawitharana memorial prize for Physics. (2017)
-3. Gulamhusein A.J. Noorbhai prize for Physics Research. (2017)
-4. Joseph Nalliah Arumugum memorial prize for Highest Academic Competence in Faculty of Science, University of Colombo. (2017)
-5. Mailvaganam memorial prize for Physics. (2017)
-
-## Experience
-
-- Graduate Teaching Assistant (Physics), Harpur College, SUNY Binghamton.(Fall-2017 - present)
-- Temporary Lecturer, Department of Physics, University of Colombo. (2017)
+<div class="news-section">
+    <h2>Recent News</h2>
+    <div class="news-items">
+        <div class="news-item">
+            <span class="news-date">January 2025</span>
+            <span class="news-content">Dr. Fernando joins Union College as Assistant Professor of Physics & Astronomy</span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">December 2024</span>
+            <span class="news-content">New paper on lyotropic liquid crystal mediated polymer assembly published in <em>Advanced Materials</em></span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">March 2024</span>
+            <span class="news-content">Research on green solvent processing featured in <em>Chemistry of Materials</em></span>
+        </div>
+    </div>
+</div>
 
 
 
