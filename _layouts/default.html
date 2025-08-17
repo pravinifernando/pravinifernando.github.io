@@ -67,8 +67,13 @@
     <div class="wrapper">
         <div class="header-section">
             <div class="container">
-                <a id="author-name" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
-                <p class="site-subtitle">From Processing to Performance: Understanding Organic Electronic Materials</p>
+                <div class="header-content">
+                    <img src="/assets/img/logo/Union_Logo.jpeg" alt="Union College Logo" class="university-logo">
+                    <div class="title-section">
+                        <a id="author-name" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
+                        <p class="site-subtitle">From Processing to Performance: Understanding Organic Electronic Materials</p>
+                    </div>
+                </div>
             </div>
         </div>
         <nav class="main-navigation">
@@ -79,7 +84,7 @@
                         
                         {% if x.name == 'Home' and page.url == '/' %}
                             {% assign is_active = true %}
-                        {% elsif x.name == 'About' and page.url contains '/about' %}
+                        {% elsif x.name == 'About Pravini' and page.url contains '/about' %}
                             {% assign is_active = true %}
                         {% elsif x.name == 'Team' and page.url contains '/team' %}
                             {% assign is_active = true %}

@@ -3,107 +3,50 @@ layout: default
 title: "Team"
 ---
 
+## About the Fernando Research Group
 
-## Current Members
+The Fernando Research Group investigates sustainable organic electronic materials with a focus on understanding how processing conditions impact local structure and electronic function. Our research spans fundamental materials physics to applied device characterization, with applications in photovoltaics, sensors, and sustainable electronics.
 
-The Fernando Research Group is actively recruiting motivated undergraduate and graduate students interested in materials physics and sustainable electronics. 
+We foster an inclusive, collaborative research environment where students gain hands-on experience with advanced characterization techniques, develop critical thinking skills, and contribute to cutting-edge materials science research. Our group values diverse perspectives and backgrounds, recognizing that innovation thrives through collaboration.
 
-### Graduate Students
-*Currently recruiting PhD and MS students*
+**Interested Union College students:** If you're interested in joining our research group or learning more about opportunities, please reach out to Dr. Fernando directly.
 
-### Undergraduate Researchers
-*Seeking motivated undergraduates for research projects*
 
-### Postdoctoral Researchers
-*Opportunities available for experienced researchers*
+## Current Students
 
----
+<div class="team-grid">
+    <!-- Student cards will go here -->
+    <div class="student-card">
+        <div class="student-info">
+            <div class="student-image">
+                <img src="/assets/img/placeholder/smiley.png" alt="Student" onerror="this.style.display='none'">
+            </div>
+            <div class="student-details">
+                <h3>Currently Recruiting</h3>
+                <p class="student-year">Undergraduate Research Positions Available</p>
+                <p class="student-description">We are actively seeking motivated undergraduate students interested in materials physics, organic electronics, and sustainable materials research. Join our growing research group!</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-## Research Opportunities
 
-### Available Positions
+## Group Alumni
 
-**Graduate Student Positions (MS/PhD)**
-- Full funding available through research assistantships
-- Opportunities to work on cutting-edge organic electronics research
-- Access to state-of-the-art characterization equipment
-- Conference travel support and professional development
+<div class="alumni-grid">
+    <!-- Alumni cards will go here as students graduate -->
+    <div class="alumni-card">
+        <div class="alumni-info">
+            <div class="student-image">
+                <img src="/assets/img/placeholder/smiley.png" alt="Student" onerror="this.style.display='none'">
+            </div>
+            <div class="alumni-details">
+                <h3>Future Alumni</h3>
+                <p class="alumni-description">As our research group grows and students complete their degrees, this section will showcase their contributions, thesis work, and career achievements.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-**Undergraduate Research Positions**
-- Academic year and summer research opportunities
-- Senior thesis projects available
-- Mentorship in advanced characterization techniques
-- Presentation opportunities at undergraduate research conferences
-
-**Postdoctoral Research Opportunities**
-- Independent research projects in organic electronics
-- Access to collaborative networks and facilities
-- Professional development and career mentoring
-- Competitive salary and benefits
-
----
-
-## What We Look For
-
-We welcome students and researchers from diverse backgrounds including:
-
-### Academic Backgrounds
-- Physics
-- Materials Science
-- Chemistry
-- Chemical Engineering
-- Electrical Engineering
-
-### Research Interests
-- Organic electronics and photovoltaics
-- Nanoscale characterization techniques (especially AFM/c-AFM)
-- Sustainable materials processing
-- Thin film fabrication and characterization
-- Structure-property relationships in organic materials
-- Interdisciplinary materials research
-
-### Skills We Value
-- Strong analytical and problem-solving abilities
-- Attention to detail in experimental work
-- Interest in learning advanced characterization techniques
-- Collaborative spirit and communication skills
-- Curiosity about materials science and sustainability
-
----
-
-## How to Apply
-
-### For Prospective Students
-
-**Graduate Students:**
-- Apply through Union College Physics & Astronomy graduate program
-- Include research interests and relevant experience
-- Contact Dr. Fernando directly with questions
-
-**Undergraduate Students:**
-- Union College students: Contact Dr. Fernando directly
-- External students: Consider REU programs or collaborative opportunities
-
-### Application Materials
-
-Please include:
-- CV or resume
-- Statement of research interests (1-2 pages)
-- Relevant coursework and research experience
-- Contact information for 2-3 references
-
----
-
-## Contact
-
-**Dr. Pravini S. Fernando**  
-Assistant Professor  
-Department of Physics & Astronomy  
-Union College  
-
-Email: TBD  
-Office: TBD  
-
----
 
 *The Fernando Research Group is committed to fostering an inclusive, diverse, and supportive research environment where all team members can thrive and contribute to cutting-edge materials science research.*

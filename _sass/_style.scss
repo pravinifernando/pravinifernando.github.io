@@ -85,6 +85,46 @@ hr {
     }
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    
+    @media (max-width: $small-width) {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+.university-logo {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    padding: 6px 8px;
+    background: linear-gradient(135deg, rgba(118, 35, 52, 0.08) 0%, rgba(118, 35, 52, 0.12) 100%);
+    border-radius: 12px;
+    border: 1px solid rgba(118, 35, 52, 0.15);
+    box-shadow: 0 2px 8px rgba(118, 35, 52, 0.1);
+    transition: all 0.3s ease;
+    
+    &:hover {
+        background: linear-gradient(135deg, rgba(118, 35, 52, 0.12) 0%, rgba(118, 35, 52, 0.16) 100%);
+        box-shadow: 0 4px 12px rgba(118, 35, 52, 0.15);
+        transform: translateY(-1px);
+    }
+    
+    @media (max-width: $small-width) {
+        height: 60px;
+        padding: 5px 7px;
+        border-radius: 10px;
+    }
+}
+
+.title-section {
+    text-align: center;
+}
+
 #author-name {
     font-size: 2.2rem;
     font-weight: 700;
@@ -139,7 +179,7 @@ hr {
         padding: 0;
         margin: 0 auto;
         background: linear-gradient(135deg, $union-garnet 0%, $union-garnet-dark 100%);
-        border-radius: 6px;
+        border-radius: 2px;
         overflow: hidden;
         
         @media (max-width: 800px) {
@@ -230,7 +270,7 @@ hr {
         width: 80%;
         height: 3px;
         background-color: white;
-        border-radius: 2px;
+        border-radius: 0px;
     }
     
     &:hover {
@@ -275,8 +315,8 @@ hr {
         margin-top: 0.5rem;
     }
     
-    // News section styling
-    p:has(strong) {
+    // News section styling - but exclude about page contact info
+    p:has(strong):not(.contact-info p) {
         background-color: rgba(118, 35, 52, 0.05);
         padding: 0.8rem 1.2rem;
         border-left: 4px solid $accent;
@@ -313,6 +353,219 @@ hr {
     
     .profile-text {
         flex: 1;
+    }
+}
+
+// About page styling
+.about-header {
+    padding: 2rem 0;
+    margin: 2rem 0 2rem 0;
+    
+    @media (max-width: $small-width) {
+        padding: 1.5rem 0;
+        margin: 1rem 0 1.5rem 0;
+    }
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+}
+
+.about-info {
+    flex: 1;
+    
+    .about-name {
+        color: $accent-dark;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 0 0 1rem 0;
+        border: none;
+        
+        @media (max-width: $small-width) {
+            font-size: 2rem;
+        }
+    }
+    
+    .about-title {
+        color: $text-color;
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0 0 2rem 0;
+        text-align: left;
+        
+        @media (max-width: 768px) {
+            text-align: center;
+        }
+    }
+}
+
+.contact-info {
+    p {
+        background: none !important;
+        border: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        color: $text-color;
+        line-height: 1.6;
+        margin: 0 0 0.8rem 0;
+        text-align: left;
+        font-size: 1rem;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+        
+        strong {
+            color: $text-color;
+            font-weight: 600;
+        }
+    }
+}
+
+.about-image {
+    flex: 0 0 230px;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    
+    img {
+        width: 230px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 170px;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+        }
+    }
+    
+    @media (max-width: 768px) {
+        flex: none;
+        align-self: center;
+        max-width: 230px;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        
+        img {
+            height: 270px;
+            border-radius: 160px;
+        }
+    }
+}
+
+// Compact list styling for awards section
+ul {
+    li {
+        margin: 0.2rem 0;
+        line-height: 1.4;
+    }
+}
+
+// Publications page styling
+.publication-year {
+    margin-bottom: 0 !important;
+    margin-top: 2rem;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+.publication-year + .publication-item {
+    margin-top: 1rem;
+}
+
+// Team page styling
+.team-grid, .alumni-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.student-card, .alumni-card {
+    background: rgba(118, 35, 52, 0.03);
+    border: 1px solid rgba(118, 35, 52, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        border-color: rgba(118, 35, 52, 0.2);
+    }
+}
+
+.student-info, .alumni-info {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    
+    @media (max-width: 600px) {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+
+.student-image {
+    flex: 0 0 120px;
+    
+    img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid rgba(118, 35, 52, 0.1);
+        transition: all 0.3s ease;
+        
+        &:hover {
+            border-color: rgba(118, 35, 52, 0.3);
+        }
+    }
+    
+    @media (max-width: 600px) {
+        flex: none;
+        align-self: center;
+    }
+}
+
+.student-details, .alumni-details {
+    flex: 1;
+    
+    h3 {
+        color: $accent-dark;
+        font-size: 1.3rem;
+        margin: 0 0 0.5rem 0;
+    }
+    
+    .student-year, .alumni-year {
+        color: $accent;
+        font-weight: 600;
+        font-size: 0.9rem;
+        margin: 0 0 0.8rem 0;
+    }
+    
+    .student-description, .alumni-description {
+        color: $text-color;
+        line-height: 1.5;
+        margin: 0;
+        font-size: 0.95rem;
+    }
+    
+    .thesis-title {
+        font-style: italic;
+        color: $text-muted;
+        font-size: 0.9rem;
+        margin: 0.5rem 0;
     }
 }
 
@@ -365,9 +618,6 @@ hr {
     border-radius: 12px;
     padding: 2rem;
     transition: all 0.3s ease;
-    display: flex;
-    align-items: flex-start;
-    gap: 2rem;
     
     &:hover {
         transform: translateY(-2px);
@@ -375,13 +625,38 @@ hr {
         border-color: rgba(118, 35, 52, 0.2);
     }
     
+    .research-header {
+        margin-bottom: 1.5rem;
+        
+        h3 {
+            color: $accent-dark;
+            font-size: 1.4rem;
+            margin-bottom: 0;
+            margin-top: 0;
+            text-align: center;
+        }
+    }
+    
+    .research-content-section {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+        margin-bottom: 1.5rem;
+        
+        @media (max-width: 768px) {
+            flex-direction: column;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+    }
+    
     .research-image-section {
-        flex: 0 0 150px;
+        flex: 0 0 250px;
         
         img {
             width: 100%;
-            height: 120px;
-            object-fit: cover;
+            height: 200px;
+            object-fit: contain;
             border-radius: 8px;
             border: 2px solid rgba(118, 35, 52, 0.1);
             transition: transform 0.3s ease;
@@ -390,83 +665,75 @@ hr {
                 transform: scale(1.05);
             }
         }
-    }
-    
-    .research-content {
-        flex: 1;
         
-        h3 {
-            color: $accent-dark;
-            font-size: 1.4rem;
-            margin-bottom: 0.8rem;
-            margin-top: 0;
-        }
-        
-        > p {
-            text-align: justify;
-            margin-bottom: 1.2rem;
-            color: $text-color;
-            line-height: 1.6;
-        }
-    }
-    
-    .research-details {
-        flex: 0 0 300px;
-        display: flex;
-        flex-direction: column;
-        gap: 1.2rem;
-        
-        .key-techniques,
-        .recent-work {
-            strong {
-                color: $accent;
-                font-size: 0.95rem;
-            }
-            
-            ul {
-                margin-top: 0.4rem;
-                padding-left: 1.2rem;
-                
-                li {
-                    margin: 0.2rem 0;
-                    font-size: 0.85rem;
-                    
-                    a {
-                        color: $accent-light;
-                        font-weight: 500;
-                        
-                        &:hover {
-                            color: $accent-dark;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    
-    @media (max-width: 900px) {
-        flex-direction: column;
-        text-align: center;
-        
-        .research-image-section {
+        @media (max-width: 768px) {
             flex: none;
             align-self: center;
             
             img {
-                width: 200px;
-                height: 150px;
+                width: 250px;
+                height: 180px;
+            }
+        }
+    }
+    
+    .research-text {
+        flex: 1;
+        
+        p {
+            text-align: justify;
+            margin-bottom: 0;
+            color: $text-color;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            text-align: center;
+        }
+    }
+    
+    .research-publications {
+        border-top: 1px solid rgba(118, 35, 52, 0.1);
+        padding-top: 1.5rem;
+        
+        strong {
+            color: $accent;
+            font-size: 0.95rem;
+        }
+        
+        ul {
+            margin-top: 0.8rem;
+            padding-left: 1.2rem;
+            
+            li {
+                margin: 0.4rem 0;
+                font-size: 0.9rem;
+                line-height: 1.4;
+                
+                a {
+                    color: $accent-light;
+                    font-weight: 500;
+                    
+                    &:hover {
+                        color: $accent-dark;
+                    }
+                }
+                
+                em {
+                    color: $text-muted;
+                    font-style: italic;
+                }
             }
         }
         
-        .research-details {
-            flex: none;
-            width: 100%;
+        @media (max-width: 768px) {
+            text-align: left;
         }
     }
 }
 
 .news-section {
-    margin: 4rem 0;
+    margin: 2rem 0 4rem 0;
     background: rgba(118, 35, 52, 0.02);
     border-radius: 10px;
     padding: 2.5rem;
