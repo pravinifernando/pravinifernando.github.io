@@ -28,6 +28,8 @@ This creates the files that will be published online.
 
 Save your changes to GitHub so they appear online:
 
++ Remember to do a jekyll build first!
+
 ```bash
 git add .
 git commit -m "Update website content"
