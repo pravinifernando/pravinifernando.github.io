@@ -1,3 +1,6 @@
 .idea/
+.claude/
+.sass-cache/
+.jekyll-cache/
 raw_theme/
 CLAUDE.md

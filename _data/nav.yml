@@ -2,16 +2,19 @@
   link: "/"
 
 - name: "About Pravini"
-  link: "about"
+  link: "/about"
 
 - name: "Team"
-  link: "team"
+  link: "/team"
 
 - name: "Publications"
-  link: "publications"
+  link: "/publications"
 
-- name: "Resources"
-  link: "resources"
+- name: "Lab Resources"
+  link: "/lab-resources"
+
+- name: "Student Resources"  
+  link: "/student-resources"
 
 - name: "Gallery"
-  link: "gallery"
+  link: "/gallery"
