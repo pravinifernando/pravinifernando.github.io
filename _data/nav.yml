@@ -10,11 +10,11 @@
 - name: "Publications"
   link: "/publications"
 
-- name: "Lab Resources"
-  link: "/lab-resources"
+#- name: "Lab Resources"
+#  link: "/lab-resources"
 
 - name: "Student Resources"  
   link: "/student-resources"
 
-- name: "Gallery"
-  link: "/gallery"
+#- name: "Gallery"
+#  link: "/gallery"

@@ -13,6 +13,8 @@ jekyll serve
 ```
 
 This creates a local preview at `http://localhost:4000`. The site updates automatically when you save files.
+Press `ctrl + c` to close a local served instance (do this before you exit).
+
 
 ### 2. Build the Website
 

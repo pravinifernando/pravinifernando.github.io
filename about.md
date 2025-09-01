@@ -19,9 +19,8 @@ title: "About Pravini"
                 807 Union Street<br>
                 Schenectady, NY 12308</p>
                 
-                <p><strong>Office:</strong> TBD<br>
-                <strong>Phone:</strong> TBD<br>
-                <strong>Email:</strong> TBD</p>
+                <p><strong>Office:</strong> ISEC 0159<br>
+                <strong>Email:</strong> fernandm[at]union[dot]edu</p>
             </div>
         </div>
     </div>
@@ -39,21 +38,22 @@ Advisor - Prof. Ying Diao
 
 ## Education
 
-**Ph.D. in Physics**, Binghamton University, Binghamton, NY, USA (2022)  
+**Ph.D. in Physics**, Binghamton University, Binghamton, NY, USA (2023)  
 Advisor: Prof. Jeffrey Mativetsky  
 Thesis: [Probing Electrical Connectivity in Organic Photovoltaic Materials](https://search.proquest.com/openview/350da57bd6959db953b53b40551adadc/1?pq-origsite=gscholar&cbl=18750&diss=y)
 
-**B.Sc. (Hons.) in Physics**, University of Colombo, Sri Lanka (2015)
+**B.Sc. (Hons.) in Physics**, University of Colombo, Sri Lanka (2017)
 
 
 ## Research Interests
 
-Pravini's research focuses on sustainable organic electronic materials. Her group investigates how processing parameters affect nanoscale morphology, charge transport, and performance in organic thin films. She specializes in thin-film fabrication, conductive AFM, and structural characterization of device-relevant materials such as organic photovoltaics and semitransparent electrodes. Her work integrates materials physics with green processing strategies to advance environmentally conscious electronics.
+Pravini's research focuses on sustainable organic electronic materials with a focus on understanding local structure property relationships. Her group investigates how processing parameters affect nanoscale morphology, charge transport, and performance in organic thin films. 
+Her work integrates materials physics with green processing strategies to advance environmentally conscious electronics.
 
 ## Distinctions and Awards
 
-- **Sigma Pi Sigma**, National Physics Honor Society - *Issued by Sigma Pi Sigma Honor Society · January 2018*
 - Recipient of Harpur first year graduate award, Binghamton University, State University of New York, USA (2017)
+- Sigma Pi Sigma, National Physics Honor Society - *Issued by Sigma Pi Sigma Honor Society · January 2018*
 - Recipient of Joseph Nalliah Arumugum memorial prize for the highest academic competence in Faculty of Science, University of Colombo, Sri Lanka (2017)
 - Recipient of Gulamhusein A.J. Noorbhai prize for the best physics undergraduate research project, University of Colombo, Sri Lanka (2017)
 - Recipient of Dr. C. A. Hewawitharana memorial prize for physics, University of Colombo, Sri Lanka (2017)

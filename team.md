@@ -7,9 +7,9 @@ title: "Team"
 
 The Fernando Research Group investigates sustainable organic electronic materials with a focus on understanding how processing conditions impact local structure and electronic function. Our research spans fundamental materials physics to applied device characterization, with applications in photovoltaics, sensors, and sustainable electronics.
 
-We foster an inclusive, collaborative research environment where students gain hands-on experience with advanced characterization techniques, develop critical thinking skills, and contribute to cutting-edge materials science research. Our group values diverse perspectives and backgrounds, recognizing that innovation thrives through collaboration.
-
-**Interested Union College students:** If you're interested in joining our research group or learning more about opportunities, please reach out to Dr. Fernando directly.
+<!--We foster an inclusive, collaborative research environment where students gain hands-on experience with advanced characterization techniques, develop critical thinking skills, and contribute to cutting-edge materials science research. 
+-->
+**Interested Union College students:** If you're interested in joining our research group or learning more about opportunities, please reach out to Pravini directly.
 
 
 ## Current Students
@@ -30,11 +30,11 @@ We foster an inclusive, collaborative research environment where students gain h
     </div>
 </div>
 
-
+<!--
 ## Group Alumni
 
 <div class="alumni-grid">
-    <!-- Alumni cards will go here as students graduate -->
+    
     <div class="alumni-card">
         <div class="alumni-info">
             <div class="student-image">
@@ -50,3 +50,5 @@ We foster an inclusive, collaborative research environment where students gain h
 
 
 *The Fernando Research Group is committed to fostering an inclusive, diverse, and supportive research environment where all team members can thrive and contribute to cutting-edge materials science research.*
+
+-->

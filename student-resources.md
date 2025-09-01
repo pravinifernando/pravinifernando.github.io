@@ -5,26 +5,31 @@ title: "Student Resources"
 
 ## Research Opportunities
 
-### Undergraduate Research
-- **Year-round research positions** available for motivated students
-- **Summer Research Experience for Undergraduates (REU)** opportunities within the group
-- **Senior thesis projects** in materials physics and organic electronics
-- **Conference presentation opportunities** at regional and national meetings
-- Mentorship in scientific writing and research methodology
+### Undergraduate Research Opportunities at Union College
+Students are strongly encouraged to take part in hands-on research. This is a great way to deepen your learning, gain valuable skills, and explore whether research might be a good fit for your future career. Don’t hesitate to talk with any faculty member about opportunities to join their projects.
+For up-to-date information, please refer to **[The Undergraduate Research (UGR) office](https://www.union.edu/undergraduate-research)**. 
 
-## Funding Opportunities
+#### There are several ways to get involved:
 
-### External REU Programs
-- **[NSF Research Experience for Undergraduates](https://www.nsf.gov/crssprgm/reu/)** - Summer research positions nationwide
+- Summer Research Program – Work on a faculty mentored project for 4, 6, or 8 weeks during the summer.
+
+- Research Practicum – Earn one course credit after completing three practica within a department.
+
+- Work Study Positions – Contribute to ongoing research projects by working 7–8 hours per week during the term.
+
+- Research Courses – Participate in Capstone Projects or Independent Studies, where you can earn course credit for original research.
+
+- Other Opportunities – Faculty may occasionally have additional projects or collaborations for students.
+
+Getting involved early helps you develop valuable skills in experimental methods, data analysis, scientific communication, and teamwork. 
+
+### External Research Opportunities 
+- **[NSF Research Experience for Undergraduates](https://www.nsf.gov/funding/initiatives/reu)** - Summer research positions nationwide
 - **[Department of Energy Science Undergraduate Laboratory Internships (SULI)](https://science.osti.gov/wdts/suli)** - National lab experiences
 - **[National Institute of Standards and Technology SURF Program](https://www.nist.gov/surf)** - NIST summer research
 
-### Fellowship Opportunities
-- **National Science Foundation Graduate Research Fellowship Program (NSF GRFP)** - 3 years of graduate funding
-- **Department of Energy Office of Science Graduate Student Research (SCGSR)** - Research at DOE facilities
-- **American Physical Society Bridge Program** - Support for underrepresented students in physics
 
-
+<!--
 ## Educational Resources
 
 ### Essential Reading
@@ -53,3 +58,4 @@ Step-by-step tutorials and protocols for common lab tasks:
 
 ### Data Analysis
 - **[AFM Data Analysis with ImageJ](guides/afm-data-analysis)** - Complete workflow from raw data to publication figures
+-->

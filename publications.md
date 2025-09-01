@@ -8,65 +8,92 @@ title: "Publications"
 <div class="publication-list">
 
 <h2 class="publication-year">2025</h2>
-<div class="publication-item no-image">
+
+<div class="publication-item with-image">
     <div class="publication-content">
         <div class="publication-title">Chiral Assemblies of π-Conjugated Molecules: Fundamentals, Processing Strategies, and Applications in (Opto) Electronics</div>
-        <div class="publication-authors">Fernando, Pravini S; Chen, Yen-Chi; Baek, Janice M; Diao, Ying.</div>
-        <div class="publication-venue">*Annual Review of Chemical and Biomolecular Engineering*, **16**, 2025. Publisher: Annual Reviews.</div>
+        <div class="publication-authors"><b>Fernando, Pravini S </b>; Chen, Yen-Chi; Baek, Janice M; Diao, Ying.</div>
+        <div class="publication-venue">Annual Review of Chemical and Biomolecular Engineering, 16, 2025. </div>
+        <div class="publication-links">
+            <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-chembioeng-100722-104224">DOI Link</a>
+        </div>
+    </div>
+    <div class="publication-image" style="flex: 0 0 auto; width:300px; margin:0 auto;">
+    <img src="/assets/img/publications/Review.png" alt="Review Paper"
+         style="width:100%; height:auto; display:block;">
     </div>
 </div>
 
 <div class="publication-item with-image">
     <div class="publication-content">
         <div class="publication-title">Lyotropic Liquid Crystal Mediated Assembly of Donor Polymers Enhances Efficiency and Stability of Blade‐Coated Organic Solar Cells</div>
-        <div class="publication-authors">Khasbaatar, Azzaya; Damron, Alec M; **Fernando, Pravini S**; Williams, Jasmine S; Zhu, Chenhui; Gann, Eliot H; Lee, Jong-Hoon; Birge, Adrian; Kim, Bora; Sabury, Sina; et al.</div>
-        <div class="publication-venue">*Advanced Materials*, **37**(11), 2414632, 2025.</div>
+        <div class="publication-authors">Khasbaatar, Azzaya; Damron, Alec M; <b>Fernando, Pravini S</b>; Williams, Jasmine S; Zhu, Chenhui; Gann, Eliot H; Lee, Jong-Hoon; Birge, Adrian; Kim, Bora; Sabury, Sina;  Lee, Minjoo L; Reynolds, John R; and Diao, Ying.</div>
+        <div class="publication-venue">Advanced Materials, 37(11), 2414632, 2025.</div>
         <div class="publication-links">
             <a href="https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202414632">DOI Link</a>
         </div>
     </div>
-    <div class="publication-image">
-        <img src="/assets/img/placeholder/smiley.png" alt="Lyotropic Liquid Crystal Publication">
+    <div class="publication-image" style="flex: 0 0 auto; width:300px; margin:0 auto;">
+    <img src="/assets/img/publications/Lyotropic_azzaya.png" 
+         alt="Lyotropic Liquid Crystal Publication" 
+         style="width:100%; height:auto; display:block;">
     </div>
 </div>
 
 <h2 class="publication-year">2024</h2>
-<div class="publication-item no-image">
+<div class="publication-item with-image">
     <div class="publication-content">
-        <div class="publication-title">Tuning the Solution Aggregate Structure of a PM7-Based Conjugated Polymer to Enable Green Solvent Processing of Organic Solar Cells</div>
-        <div class="publication-authors">Khasbaatar, Azzaya; Jones, Austin L; **Fernando, Pravini S**; Sai, Hiroaki; Zhu, Chenhui; Gann, Eliot; Reynolds, John R; Diao, Ying.</div>
-        <div class="publication-venue">*Chemistry of Materials*, **36**(6), 2819–2834, 2024. Publisher: American Chemical Society.</div>
+        <div class="publication-title"> Tuning the Solution Aggregate Structure of a PM7-Based 
+Conjugated Polymer to Enable Green Solvent Processing of Organic Solar Cells</div>
+        <div class="publication-authors">Khasbaatar, Azzaya; Jones, Austin L; <b>Fernando, Pravini S</b> ;
+Sai, Hiroaki; Zhu, Chenhui; Gann, Eliot; Reynolds, John R; Diao, Ying.</div>
+        <div class="publication-venue">Chemistry of Materials, 36(6), 2819–2834, 2024.</div>
         <div class="publication-links">
             <a href="https://pubs.acs.org/doi/10.1021/acs.chemmater.3c03055">DOI Link</a>
         </div>
     </div>
+    <div class="publication-image" style="flex: 0 0 auto; width:300px; margin:0 auto;">
+    <img src="/assets/img/publications/green_azzaya.gif" 
+         alt="green Publication" 
+         style="width:100%; height:auto; display:block;">
+    </div>
 </div>
+
 
 <h2 class="publication-year">2023</h2>
 <div class="publication-item with-image">
     <div class="publication-content">
         <div class="publication-title">Unambiguous Measurement of Local Hole Current in Organic Semiconductors Using Conductive Atomic Force Microscopy</div>
-        <div class="publication-authors"><span class="author-highlight">Fernando, Pravini S</span>; Mativetsky, Jeffrey M.</div>
-        <div class="publication-venue">*The Journal of Physical Chemistry C*, **127**(20), 9903–9910, 2023. Publisher: American Chemical Society.</div>
+        <div class="publication-authors"> <b> Fernando, Pravini S</b>; Mativetsky, Jeffrey M.</div>
+        <div class="publication-venue">The Journal of Physical Chemistry C, 127(20), 9903–9910, 2023. Publisher: American Chemical Society.</div>
         <div class="publication-links">
             <a href="https://pubs.acs.org/doi/10.1021/acs.jpcc.3c01651">DOI Link</a>
         </div>
     </div>
-    <div class="publication-image">
-        <img src="/assets/img/publications/c_afm_2023.jpg" alt="Conductive AFM Publication">
+     <div class="publication-image" style="flex: 0 0 auto; width:300px;  ;margin:0 auto;">
+    <img src="/assets/img/publications/2023_1.gif" 
+         alt="c-afm Publication" 
+         style="width:100%; height:auto; display:block;">
     </div>
 </div>
 
-<div class="publication-item no-image">
+<div class="publication-item with-image">
     <div class="publication-content">
         <div class="publication-title">Remarkable Electrical Connectivity in the Acceptor Phase of Y6-and Fullerene-Based Bulk Heterojunction Solar Cells</div>
-        <div class="publication-authors"><span class="author-highlight">Fernando, Pravini S</span>; Mativetsky, Jeffrey M.</div>
-        <div class="publication-venue">*ACS Applied Energy Materials*, **6**(21), 10951–10960, 2023. Publisher: American Chemical Society.</div>
+        <div class="publication-authors"><b>Fernando, Pravini S</b>; Mativetsky, Jeffrey M.</div>
+        <div class="publication-venue">ACS Applied Energy Materials, 6(21), 10951–10960, 2023. Publisher: American Chemical Society.</div>
         <div class="publication-links">
             <a href="https://pubs.acs.org/doi/10.1021/acsaem.3c01734">DOI Link</a>
         </div>
     </div>
+     <div class="publication-image" style="flex: 0 0 auto; width:300px;  ;margin:0 auto;">
+    <img src="/assets/img/publications/2023_2.gif" 
+         alt="c-afm Publication" 
+         style="width:100%; height:auto; display:block;">
+    </div>
 </div>
+
+
 
 <div class="publication-item no-image">
     <div class="publication-content">
@@ -79,34 +106,54 @@ title: "Publications"
 </div>
 
 <h2 class="publication-year">2022</h2>
-<div class="publication-item no-image">
+<div class="publication-item with-image">
     <div class="publication-content">
         <div class="publication-title">Mixed Molecular Orientations Promote Charge Transport in Bulk Heterojunction Solar Cells</div>
         <div class="publication-authors"><span class="author-highlight">Fernando, Pravini S</span>; Smilgies, Detlef-M; Mativetsky, Jeffrey M.</div>
-        <div class="publication-venue">*Chemical Communications*, **58**, 5765–5768, 2022. Publisher: The Royal Society of Chemistry.</div>
+        <div class="publication-venue">Chemical Communications, 58, 5765–5768, 2022. Publisher: The Royal Society of Chemistry.</div>
         <div class="publication-links">
             <a href="https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc01234k">DOI Link</a>
         </div>
     </div>
+     <div class="publication-image" style="flex: 0 0 auto; width:300px;  ;margin:0 auto;">
+    <img src="/assets/img/publications/2022_1.jpeg" 
+         alt="c-afm Publication" 
+         style="width:100%; height:auto; display:block;">
+    </div>
 </div>
 
-<div class="publication-item no-image">
+<div class="publication-item with-image">
     <div class="publication-content">
-        <div class="publication-title">Probing the Contribution of Lateral Pathways to Out-of-Plane Charge Transport in Organic Bulk Heterojunctions</div>
+         <div class="publication-title">Probing the Contribution of Lateral Pathways to Out-of-Plane Charge Transport in Organic Bulk Heterojunctions</div>
         <div class="publication-authors"><span class="author-highlight">Fernando, Pravini S</span>; Mehta, Jeremy S; Smilgies, Detlef-M; Mativetsky, Jeffrey M.</div>
-        <div class="publication-venue">*Advanced Electronic Materials*, **8**(6), 2200156, 2022.</div>
+        <div class="publication-venue">Advanced Electronic Materials, 8(6), 2200156, 2022.</div>
         <div class="publication-links">
             <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/aelm.202200156">DOI Link</a>
         </div>
     </div>
+     <div class="publication-image" style="flex: 0 0 auto; width:300px;  ;margin:0 auto;">
+    <img src="/assets/img/publications/2022_2.jpeg" 
+         alt="c-afm Publication" 
+         style="width:100%; height:auto; display:block;">
+    </div>
 </div>
 
+
+
 <h2 class="publication-year">2021</h2>
-<div class="publication-item no-image">
+<div class="publication-item with-image">
     <div class="publication-content">
-        <div class="publication-title">Freeing Organic Semiconductor Nanowires from Nanoporous Aluminum Oxide Templates: Effects on Morphology, Crystal Structure, and Molecular Aggregation</div>
+         <div class="publication-title">Freeing Organic Semiconductor Nanowires from Nanoporous Aluminum Oxide Templates: Effects on Morphology, Crystal Structure, and Molecular Aggregation</div>
         <div class="publication-authors">Haruk, Alexander M; <span class="author-highlight">Fernando, Pravini S</span>; Smilgies, Detlef-M; Mativetsky, Jeffrey M.</div>
-        <div class="publication-venue">*Crystal Growth & Design*, **21**(4), 2309–2318, 2021. Publisher: American Chemical Society.</div>
+        <div class="publication-venue">Crystal Growth & Design, 21(4), 2309–2318, 2021. </div>
+        <div class="publication-links">
+            <a href="https://pubs.acs.org/doi/abs/10.1021/acs.cgd.0c01316">DOI Link</a>
+        </div>
+    </div>
+     <div class="publication-image" style="flex: 0 0 auto; width:300px;  ;margin:0 auto;">
+    <img src="/assets/img/publications/2021_1.jpeg" 
+         alt="nanowires" 
+         style="width:100%; height:auto; display:block;">
     </div>
 </div>
 
@@ -114,34 +161,48 @@ title: "Publications"
     <div class="publication-content">
         <div class="publication-title">Probing the Role of Lateral Charge Transport in Organic Solar Cell Active Layers</div>
         <div class="publication-authors"><span class="author-highlight">Fernando, Pravini S</span>; Mehta, Jeremy S; Smilgies, Detlef-M; Mativetsky, Jeffrey M.</div>
-        <div class="publication-venue">*MRS Spring 2021 Meeting Abstract*, 2021.</div>
+        <div class="publication-venue">MRS Spring 2021 Meeting Abstract, 2021.</div>
         <div class="publication-links">
-            <a href="https://www.mrs.org/docs/default-source/meetings-events/spring-meetings/2021">Conference Link</a>
+            <a href="https://www.mrs.org/docs/default-source/meetings-events/spring-meetings/2021/abstract-book.pdf?sfvrsn=66f9da0c_6">Conference Link</a>
         </div>
     </div>
 </div>
 
 <h2 class="publication-year">2020</h2>
-<div class="publication-item no-image">
+<div class="publication-item with-image">
     <div class="publication-content">
-        <div class="publication-title">Tuning Organic Semiconductor Alignment and Aggregation via Nanoconfinement</div>
+         <div class="publication-title">Tuning Organic Semiconductor Alignment and Aggregation via Nanoconfinement</div>
         <div class="publication-authors">Haruk, Alexander M; Leng, Collen Z; <span class="author-highlight">Fernando, Pravini S</span>; Smilgies, Detlef-M; Loo, Yueh-Lin; Mativetsky, Jeffrey M.</div>
-        <div class="publication-venue">*The Journal of Physical Chemistry C*, **124**(17), 9378–9388, 2020. Publisher: ACS.</div>
+        <div class="publication-venue">The Journal of Physical Chemistry C, 124(17), 9378–9388, 2020. Publisher: ACS.</div>
+        <div class="publication-links">
+            <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.0c06270">DOI Link</a>
+        </div>
+    </div>
+     <div class="publication-image" style="flex: 0 0 auto; width:300px;  ;margin:0 auto;">
+    <img src="/assets/img/publications/2020_1.webp" 
+         alt="nanowires" 
+         style="width:100%; height:auto; display:block;">
     </div>
 </div>
 
+
 <h2 class="publication-year">2019</h2>
-<div class="publication-item no-image">
+<div class="publication-item with-image">
     <div class="publication-content">
-        <div class="publication-title">Colocalized Nanoscale Electrical and Compositional Mapping of Organic Solar Cells</div>
+         <div class="publication-title">Colocalized Nanoscale Electrical and Compositional Mapping of Organic Solar Cells</div>
         <div class="publication-authors">Mehta, Jeremy S; <span class="author-highlight">Fernando, Pravini S</span>; Grazul, John L; Mativetsky, Jeffrey M.</div>
-        <div class="publication-venue">*ACS Applied Energy Materials*, **2**(7), 5146–5153, 2019. Publisher: ACS Publications.</div>
+        <div class="publication-venue">ACS Applied Energy Materials, 2(7), 5146–5153, 2019. Publisher: ACS Publications.</div>
         <div class="publication-links">
             <a href="https://pubs.acs.org/doi/abs/10.1021/acsaem.9b00829">DOI Link</a>
         </div>
     </div>
+     <div class="publication-image" style="flex: 0 0 auto; width:295px;  ;margin:0 auto;">
+    <img src="/assets/img/publications/2019_1.jpeg" 
+         alt="nanowires" 
+         style="width:100%; height:auto; display:block;">
+    </div>
 </div>
-
+<!--
 <h2 class="publication-year">2018</h2>
 <div class="publication-item no-image">
     <div class="publication-content">
@@ -174,5 +235,6 @@ title: "Publications"
     </div>
 </div>
 
+-->
 
 </div>
