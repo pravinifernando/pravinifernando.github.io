@@ -73,7 +73,7 @@ to provide a broader understanding of processing, morphology, and charge transpo
     <div class="news-items">
         <div class="news-item">
             <span class="news-date">September 2025</span>
-            <span class="news-content">Dr. Fernando joins Union College as Assistant Professor of Physics & Astronomy</span>
+            <span class="news-content">Dr. Fernando joins Union College as an Assistant Professor of Physics & Astronomy</span>
         </div>
         <div class="news-item">
             <span class="news-date">March 2025</span>
