@@ -34,7 +34,7 @@
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
     {% if site.favicon %}
         <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
         <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
@@ -69,9 +69,9 @@
         <div class="header-section">
             <div class="container">
                 <div class="header-content">
-                    <img src="/assets/img/logo/Union_Logo.jpeg" alt="Union College Logo" class="university-logo">
+                    <img src="{{ '/assets/img/logo/Union_Logo.jpeg' | relative_url }}" alt="Union College Logo" class="university-logo">
                     <div class="title-section">
-                        <a id="author-name" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
+                        <a id="author-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
                         <p class="site-subtitle">From Processing to Performance: Understanding Organic Electronic Materials</p>
                     </div>
                 </div>

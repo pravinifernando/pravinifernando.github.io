@@ -12,7 +12,7 @@ title: "Publications"
 <div class="publication-item with-image">
     <div class="publication-content">
         <div class="publication-title">Chiral Assemblies of π-Conjugated Molecules: Fundamentals, Processing Strategies, and Applications in (Opto) Electronics</div>
-        <div class="publication-authors"><span class="author-highlight">Fernando, Pravini S </span>; Chen, Yen-Chi; Baek, Janice M; Diao, Ying.</div>
+        <div class="publication-authors"><b>Fernando, Pravini S </b>; Chen, Yen-Chi; Baek, Janice M; Diao, Ying.</div>
         <div class="publication-venue">Annual Review of Chemical and Biomolecular Engineering, 16, 2025. </div>
         <div class="publication-links">
             <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-chembioeng-100722-104224">DOI Link</a>
@@ -27,7 +27,7 @@ title: "Publications"
 <div class="publication-item with-image">
     <div class="publication-content">
         <div class="publication-title">Lyotropic Liquid Crystal Mediated Assembly of Donor Polymers Enhances Efficiency and Stability of Blade‐Coated Organic Solar Cells</div>
-        <div class="publication-authors">Khasbaatar, Azzaya; Damron, Alec M; <span class="author-highlight">Fernando, Pravini S</span>; Williams, Jasmine S; Zhu, Chenhui; Gann, Eliot H; Lee, Jong-Hoon; Birge, Adrian; Kim, Bora; Sabury, Sina;  Lee, Minjoo L; Reynolds, John R; and Diao, Ying.</div>
+        <div class="publication-authors">Khasbaatar, Azzaya; Damron, Alec M; <b>Fernando, Pravini S</b>; Williams, Jasmine S; Zhu, Chenhui; Gann, Eliot H; Lee, Jong-Hoon; Birge, Adrian; Kim, Bora; Sabury, Sina;  Lee, Minjoo L; Reynolds, John R; and Diao, Ying.</div>
         <div class="publication-venue">Advanced Materials, 37(11), 2414632, 2025.</div>
         <div class="publication-links">
             <a href="https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202414632">DOI Link</a>
@@ -45,7 +45,7 @@ title: "Publications"
     <div class="publication-content">
         <div class="publication-title"> Tuning the Solution Aggregate Structure of a PM7-Based 
 Conjugated Polymer to Enable Green Solvent Processing of Organic Solar Cells</div>
-        <div class="publication-authors">Khasbaatar, Azzaya; Jones, Austin L; <span class="author-highlight">Fernando, Pravini S</span> ;
+        <div class="publication-authors">Khasbaatar, Azzaya; Jones, Austin L; <b>Fernando, Pravini S</b> ;
 Sai, Hiroaki; Zhu, Chenhui; Gann, Eliot; Reynolds, John R; Diao, Ying.</div>
         <div class="publication-venue">Chemistry of Materials, 36(6), 2819–2834, 2024.</div>
         <div class="publication-links">
@@ -64,7 +64,7 @@ Sai, Hiroaki; Zhu, Chenhui; Gann, Eliot; Reynolds, John R; Diao, Ying.</div>
 <div class="publication-item with-image">
     <div class="publication-content">
         <div class="publication-title">Unambiguous Measurement of Local Hole Current in Organic Semiconductors Using Conductive Atomic Force Microscopy</div>
-        <div class="publication-authors"> <span class="author-highlight">Fernando, Pravini S</span>; Mativetsky, Jeffrey M.</div>
+        <div class="publication-authors"> <b> Fernando, Pravini S</b>; Mativetsky, Jeffrey M.</div>
         <div class="publication-venue">The Journal of Physical Chemistry C, 127(20), 9903–9910, 2023. Publisher: American Chemical Society.</div>
         <div class="publication-links">
             <a href="https://pubs.acs.org/doi/10.1021/acs.jpcc.3c01651">DOI Link</a>
@@ -80,7 +80,7 @@ Sai, Hiroaki; Zhu, Chenhui; Gann, Eliot; Reynolds, John R; Diao, Ying.</div>
 <div class="publication-item with-image">
     <div class="publication-content">
         <div class="publication-title">Remarkable Electrical Connectivity in the Acceptor Phase of Y6-and Fullerene-Based Bulk Heterojunction Solar Cells</div>
-        <div class="publication-authors"><span class="author-highlight">Fernando, Pravini S</span>; Mativetsky, Jeffrey M.</div>
+        <div class="publication-authors"><b>Fernando, Pravini S</b>; Mativetsky, Jeffrey M.</div>
         <div class="publication-venue">ACS Applied Energy Materials, 6(21), 10951–10960, 2023. Publisher: American Chemical Society.</div>
         <div class="publication-links">
             <a href="https://pubs.acs.org/doi/10.1021/acsaem.3c01734">DOI Link</a>

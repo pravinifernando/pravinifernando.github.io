@@ -24,7 +24,7 @@ We are fundamentally interested in how processing shapes local material structur
             </div>
             <div class="research-content-section">
                 <div class="research-image-section">
-                    <img src="/assets/img/research/research_dir1_v2.png" alt="Nanoscale Structure–Electronic Property Relationships" onerror="this.style.display='none'">
+                    <img src="{{ '/assets/img/research/research_dir1_v2.png' | relative_url }}" alt="Nanoscale Structure–Electronic Property Relationships" onerror="this.style.display='none'">
                 </div>
                 <div class="research-text">
                     <p> Our research investigates how processing conditions influence film morphology and electronic
@@ -52,7 +52,7 @@ to provide a broader understanding of processing, morphology, and charge transpo
             </div>
             <div class="research-content-section">
                 <div class="research-image-section">
-                    <img src="/assets/img/research/research_dir3.jpg" alt="Environmentally Sustainable Approaches" onerror="this.style.display='none'">
+                    <img src="{{ '/assets/img/research/research_dir3.jpg' | relative_url }}" alt="Environmentally Sustainable Approaches" onerror="this.style.display='none'">
                 </div>
                 <div class="research-text">
                     <p>We explore environmentally conscious strategies for processing organic electronic materials, with a focus on reducing reliance on toxic solvents and additives. Our research investigates the use of green solvents, solid additives, and solution blends to control aggregation and morphology in bulk heterojunction systems. In parallel, we study the "green" formulation and post-treatment of PEDOT:PSS-based thin films to understand how conductivity and morphology can be tuned through more sustainable processing approaches.</p>
