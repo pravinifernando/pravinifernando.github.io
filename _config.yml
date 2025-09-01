@@ -1,6 +1,6 @@
-title: Pravini Fernando
+title: Fernando Research Group
 url: ""
-baseurl: "/"
+baseurl: ""
 
 markdown: kramdown
 
@@ -10,3 +10,15 @@ tracking_id: UA-138751175-1
 sass:
     style: compressed
     sass_dir: _sass
+
+# Exclude raw theme files from Jekyll processing
+exclude:
+  - raw_theme/
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - README.md
+  - CLAUDE.md

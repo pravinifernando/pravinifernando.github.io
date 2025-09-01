@@ -32,6 +32,7 @@
     {% endif %}
     <meta name="description" content="{{ desc }}">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
     {% if site.favicon %}
@@ -65,24 +66,56 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="navbar container">
-            <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
-            <ul class="alignable pull-right navbar-ul">
-                {% for x in site.data.nav %}
-                    {% if x.name == "Resume" %}
-                        <li class="alignable pull-right nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
-                    {% else %}
-                        <li class="alignable pull-right nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
-                    {% endif %}
-                    {% if forloop.first == false %}
-                        /
-                    {% endif %}
-                        </li>
-                {% endfor %}
-            </ul>
+        <div class="header-section">
+            <div class="container">
+                <div class="header-content">
+                    <img src="/assets/img/logo/Union_Logo.jpeg" alt="Union College Logo" class="university-logo">
+                    <div class="title-section">
+                        <a id="author-name" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
+                        <p class="site-subtitle">From Processing to Performance: Understanding Organic Electronic Materials</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div style="clear:both"></div>
-        <hr>
+        <nav class="main-navigation">
+            <div class="container">
+                <ul class="nav-menu">
+                    {% for x in site.data.nav %}
+                        {% assign is_active = false %}
+                        
+                        {% if x.name == 'Home' and page.url == '/' %}
+                            {% assign is_active = true %}
+                        {% elsif x.name == 'About Pravini' and page.url contains '/about' %}
+                            {% assign is_active = true %}
+                        {% elsif x.name == 'Team' and page.url contains '/team' %}
+                            {% assign is_active = true %}
+                        {% elsif x.name == 'Publications' and page.url contains '/publications' %}
+                            {% assign is_active = true %}
+                        {% elsif x.name == 'Lab Resources' and page.url contains '/lab-resources' %}
+                            {% assign is_active = true %}
+                        {% elsif x.name == 'Student Resources' and page.url contains '/student-resources' %}
+                            {% assign is_active = true %}
+                        {% elsif x.name == 'Gallery' and page.url contains '/gallery' %}
+                            {% assign is_active = true %}
+                        {% elsif x.name == 'Contact' and page.url contains '/contact' %}
+                            {% assign is_active = true %}
+                        {% endif %}
+                        
+                        {% if is_active %}
+                            {% assign nav_class = "nav-link active" %}
+                        {% else %}
+                            {% assign nav_class = "nav-link" %}
+                        {% endif %}
+                        
+                        {% if x.name == "CV" %}
+                            <li class="nav-item"><a target="_blank" href="{{ x.link }}" class="{{ nav_class }}">{{ x.name }}</a></li>
+                        {% else %}
+                            <li class="nav-item"><a href="{{ x.link }}" class="{{ nav_class }}">{{ x.name }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </nav>
         {% if page.is_contact == true %}
             <div class="container content contact">
                 {{ content }}

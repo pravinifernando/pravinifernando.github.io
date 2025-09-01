@@ -1,35 +1,62 @@
-# Researcher
+# Fernando Research Group Website
 
-### [Demo Website](https://ankitsultana.com/researcher)
+A Jekyll-based academic website for the Fernando Research Group at Union College.
 
-A clean, single column, monospace resume template built for jekyll
+## Making Changes to the Website
 
-### Installation
+### 1. Preview Changes Locally
 
-Simply fork the repository and edit away.
+Before publishing changes, see them on your computer first:
 
-### Customization
-
-* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
-
-* You can of course remove `contact.md` if you don't want it
-
-* To set the heading, edit the `title` variable in `_config.yml`
-
-* To edit the `links` mentioned on the navigation bar, edit the file `_data/nav.yml`
-
-* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
-
-* You can setup google analytics, by setting `tracking_id` in `_config.yml`
-
-* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
-
-```html
-<img class="profile-picture" src="sherlock.jpg">
+```bash
+jekyll serve
 ```
 
-**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
+This creates a local preview at `http://localhost:4000`. The site updates automatically when you save files.
+Press `ctrl + c` to close a local served instance (do this before you exit).
 
-### License
 
-[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)
+### 2. Build the Website
+
+After making changes, build the final website:
+
+```bash
+jekyll build
+```
+
+This creates the files that will be published online.
+
+### 3. Publish Changes to GitHub
+
+Save your changes to GitHub so they appear online:
+
++ Remember to do a jekyll build first!
+
+```bash
+git add .
+git commit -m "Update website content"
+git push
+```
+
+Replace "Update website content" with a brief description of what you changed.
+
+## Adding Photos to Gallery
+
+Edit `gallery.md` and add new photos to the `galleryPhotos` array:
+
+```javascript
+{
+    src: "assets/img/your-photo.jpg",
+    alt: "Description of photo",
+    date: "Month Year", 
+    caption: "Photo caption",
+    isGroupPhoto: true  // true = shows in carousel, false = grid only
+}
+```
+
+## Common Tasks
+
+- **Edit content**: Modify `.md` files (index.md, about.md, etc.)
+- **Add team members**: Edit `team.md` 
+- **Update publications**: Edit `publications.md`
+- **Add navigation links**: Edit `_data/nav.yml`

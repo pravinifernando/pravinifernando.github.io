@@ -1,68 +1,107 @@
 ---
 layout: default
+title: "Fernando Research Group"
 ---
 
-## About Me
+<div class="home-intro">
+    <div class="group-overview">
+        <p>
+          The Fernando Research Group investigates sustainable organic electronic materials, aiming to connect processing, structure, and electronic function. 
+We are fundamentally interested in how processing shapes local material structure and electronic properties, with applications in organic photovoltaics, sensors, and flexible electronic devices.
+</p>
+        
+        <!-- <div class="affiliation">
+            Department of Physics & Astronomy, Union College
+        </div> -->
+    </div>
+</div>
 
-<img class="profile-picture" src="picture.jpg" style="height:200px;width:160px;padding:px;">
+<div class="research-directions">
+    <div class="research-grid">
+        <div class="research-card">
+            <div class="research-header">
+                <h3>Processing-Structure–Electronic Property Relationships </h3>
+            </div>
+            <div class="research-content-section">
+                <div class="research-image-section">
+                    <img src="/assets/img/research/research_dir1_v2.png" alt="Nanoscale Structure–Electronic Property Relationships" onerror="this.style.display='none'">
+                </div>
+                <div class="research-text">
+                    <p> Our research investigates how processing conditions influence film morphology and electronic
+performance in organic photovoltaics and semitransparent organic electrodes. We use scanning probe microscopy (SPM) 
+techniques such as conductive atomic force microscopy (c-AFM), to study local charge transport at the nanoscale. These insights are complemented by structural characterization 
+to provide a broader understanding of processing, morphology, and charge transport.</p>
+                </div>
+            </div>
+            <div class="research-publications">
+                <strong>Relevant Publications:</strong>
+                <ul>
+                    <li><a href="https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202414632">Lyotropic Liquid Crystal Mediated Assembly of Donor Polymers Enhances Efficiency and Stability of Blade-Coated Organic Solar Cells</a> – <em>Advanced Materials</em> (2024)</li>
+                    <li><a href="https://pubs.acs.org/doi/10.1021/acsaem.3c01734">Remarkable Electrical Connectivity in the Acceptor Phase of Y6- and Fullerene-Based Bulk Heterojunction Solar Cells</a> – <em>ACS Applied Energy Materials</em> (2023)</li>
+                    <li><a href="https://pubs.acs.org/doi/10.1021/acs.jpcc.3c01651">Unambiguous Measurement of Local Hole Current in Organic Semiconductors Using Conductive Atomic Force Microscopy</a> – <em>J. Phys. Chem. C</em> (2023)</li>
+                    <li><a href="https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc01234k">Mixed molecular orientations promote charge transport in bulk heterojunction solar cells</a> – <em>Chemical Communications</em> (2022)</li>
+                    <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/aelm.202200156">Probing the Contribution of Lateral Pathways to Out-of-Plane Charge Transport in Organic Bulk Heterojunctions
+</a> – <em>Advanced Electronic Materials</em> (2022)</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="research-card">
+            <div class="research-header">
+                <h3>Environmentally Sustainable Approaches to Organic Electronics</h3>
+            </div>
+            <div class="research-content-section">
+                <div class="research-image-section">
+                    <img src="/assets/img/research/research_dir3.jpg" alt="Environmentally Sustainable Approaches" onerror="this.style.display='none'">
+                </div>
+                <div class="research-text">
+                    <p>We explore environmentally conscious strategies for processing organic electronic materials, with a focus on reducing reliance on toxic solvents and additives. Our research investigates the use of green solvents, solid additives, and solution blends to control aggregation and morphology in bulk heterojunction systems. In parallel, we study the "green" formulation and post-treatment of PEDOT:PSS-based thin films to understand how conductivity and morphology can be tuned through more sustainable processing approaches.</p>
+                </div>
+            </div>
+            <div class="research-publications">
+                <strong>Recent Publications:</strong>
+                <ul>
+                    <li><a href="https://pubs.acs.org/doi/10.1021/acs.chemmater.3c03055">Tuning the Solution Aggregate Structure of a PM7-Based Conjugated Polymer to Enable Green Solvent Processing of Organic Solar Cells</a> – <em>Chemistry of Materials</em> (2024)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
+<div class="news-section">
+    <h3>Recent News</h3>
+    <div class="news-items">
+        <div class="news-item">
+            <span class="news-date">September 2025</span>
+            <span class="news-content">Dr. Fernando joins Union College as Assistant Professor of Physics & Astronomy</span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">March 2025</span>
+            <span class="news-content">Excited to see our review article titled "Chiral Assemblies of π-Conjugated Molecules: Fundamentals, Processing Strategies, and Applications in (Opto) Electronics" now pubished in <em>Annual Review of Chemical and Biomolecular Engineering</em></span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">February 2025</span>
+            <span class="news-content">Our paper titled "Lyotropic Liquid Crystal Mediated Assembly of Donor Polymers Enhances Efficiency and Stability of Blade‐Coated Organic Solar Cells" is published in <em>Advanced Materials</em> journal</span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">March 2024</span>
+            <span class="news-content">Our paper titled "Tuning the Solution Aggregate Structure of a PM7-Based Conjugated Polymer to Enable Green Solvent Processing of Organic Solar Cells" is published in <em>ACS Chemistry of Materials </em> journal </span>
+        </div>
+         <div class="news-item">
+            <span class="news-date">November 2023</span>
+            <span class="news-content">Our paper titled "Remarkable Electrical Connectivity in the Acceptor Phase of Y6-and Fullerene-Based Bulk Heterojunction Solar Cells" is published in <em>ACS Applied Energy Materials </em> journal </span>
+        </div>
 
-Hi! My name is [Pravini Fernando](), I am a _Postdoctoral Research Associate_ at the [Diao Lab]() 
-under the supervision of Professor [Ying Diao](https://diao.scs.illinois.edu/about-ying/), 
-at the University of Illinois Urbana-Champaign, USA.
-
-I completed my PHD in _Physics_ at the State University of New York, Binghamton, 
-USA under the supervision of Professor [Jeffrey M. Mativetsky](http://www.mativetskylab.com/people/jeffrey-mativetsky). 
-I completed my bachelors degree in science from University of Colombo, Sri Lanka specializing in _Physics_.
-
-## Research
-
-My current research work affiliated with [Diao Lab](https://diao.scs.illinois.edu/) focuses on probing chirality 
-induced spin selectivity (CISS) and its impact on opto-electrical properties. 
-
-During my PhD, I was a member of the [Mativetsky Lab](http://www.mativetskylab.com) 
-@ SUNY Binghamton where my research focused on investigating the connections between morphology, 
-molecular structure, and orientation of organic photovoltaic (OPV) 
-materials and their impact on electrical connectivity, mainly using grazing incidence X-ray diffraction (GIXD) 
-and conductive atomic force microscopy (C-AFM) techniques. 
-
-<!-- In terms of research experience, before my PhD, during my undergraduate years-I have worked in the area of non-linear photonic simulations with Professor [K.A.I.L. Wijewardena Gamalath](https://www.researchgate.net/profile/Kail_Gamalath). -->
-
-
-## Selected Publications
-
-+ [Tuning the Solution Aggregate Structure of a PM7-Based Conjugated Polymer to Enable Green Solvent
-Processing of Organic Solar Cells](https://pubs.acs.org/doi/10.1021/acs.chemmater.3c03055). By Azzaya Khasbaatar, Austin L. Jones, **Pravini S. Fernando**, Hiroaki
-Sai, Chenhui Zhu, Eliot Gann, John R. Reynolds, and Ying Diao. In:ACS Chemical Materials (2024).
-+ [Remarkable Electrical Connectivity in the Acceptor Phase of Y6- and Fullerene-based Bulk Heterojunction Solar Cells](https://pubs.acs.org/doi/10.1021/acsaem.3c01734). By **Pravini S. Fernando**, and Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2023).
-+ [Unambiguous Measurement of Local Hole Current in Organic Semiconductors Using Conductive Atomic Force Microscopy](https://pubs.acs.org/doi/10.1021/acs.jpcc.3c01651). By **Pravini S. Fernando** and Jeffrey M. Mativetsky. In: The Journal of Physical Chemistry C (2023). 
-+ [Mixed molecular orientations promote charge transport in bulk heterojunction solar cells](https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc01234k). By **Pravini S. Fernando**, Detlef-M. Smilgies, and Jeffrey M. Mativetsky. In: Chemical Communications (2022).
-+ [Probing the Contribution of Lateral Pathways to Out-of-Plane Charge Transport in Organic Bulk Heterojunctions](https://onlinelibrary.wiley.com/doi/abs/10.1002/aelm.202200156). By **Pravini S. Fernando**, Jeremy S. Mehta, Detlef-M. Smilgies, and Jeffrey M. Mativetsky. In: Advanced Electronic Materials (2022).
-+ [Freeing Organic Semiconductor Nanowires from Nanoporous Aluminum Oxide Templates: Effects on Morphology, Crystal Structure, and Molecular Aggregation](https://pubs.acs.org/doi/10.1021/acs.cgd.0c01316) by Alexander M. Haruk, **Pravini S. Fernando**, Detlef-M. Smilgies, Jeffrey M. Mativetsky. In: Crystal Growth Design (2021).
-+ [Tuning Organic Semiconductor Alignment and Aggregation via Nanoconfinement](https://pubs.acs.org/doi/10.1021/acs.jpcc.0c06270) by Alexander M. Haruk, Collen Z. Leng, **Pravini S. Fernando**, Detlef-M. Smilgies,Yueh-Lin Loo, Jeffrey M. Mativetsky. In: The Journal of Physical Chemistry C (2020).
-+ [Colocalized nanoscale electrical and compositional mapping of organic solar cells](https://pubs.acs.org/doi/abs/10.1021/acsaem.9b00829) by Jeremy S. Mehta, **Pravini S. Fernando**, John L. Grazul, Jeffrey M. Mativetsky. In: ACS Applied Energy Materials (2019).
-
-
-## Education
-
-- PhD. Physics, [State University of New York(SUNY) Binghamton](https://www.binghamton.edu){:target="blank"}. (Fall 2017 - Fall 2023)
-- Bsc. Special Degree in Physics(`First Class Hons.`), [University of Colombo](http://www.cmb.ac.lk){:target="blank"}, Sri Lanka. (2017)
-- GCE Advance Levels(A/Ls), [Visakha Vidayala](http://www.visakhav.org){:target="blank"}, Colombo-05, Sri Lanka. (2009-2011)
-- GCE Ordinary Levels(O/Ls), [Holy Family Convent](http://hfcb.lk){:target="blank"}, Colombo-04, Sri Lanka. (1998-2008)
-
-## Awards and Scholarships
-
-1. Harpur First Year Graduate Award, SUNY Binghamton. (2017)
-2. Dr. C. A. Hewawitharana memorial prize for Physics. (2017)
-3. Gulamhusein A.J. Noorbhai prize for Physics Research. (2017)
-4. Joseph Nalliah Arumugum memorial prize for Highest Academic Competence in Faculty of Science, University of Colombo. (2017)
-5. Mailvaganam memorial prize for Physics. (2017)
-
-## Experience
-
-- Postdoctoral Research Associate, University of Illinois Urbana-Champaign, USA. (Fall 2023 - present)
-- Graduate Teaching/Research Assistant (Physics), Harpur College, SUNY Binghamton. (Fall 2017 - Fall 2023)
-- Temporary Lecturer, Department of Physics, University of Colombo. (2017)
+        <div class="news-item">
+            <span class="news-date">August 2023</span>
+            <span class="news-content">Pravini officially joined the research group of Prof. Ying Diao at the Department of Chemical and Biomolecular Engineering at the University of Illinois at Urbana-Champaign as a postdoctoral Research Associate!  </span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">May 2023</span>
+            <span class="news-content">Our paper titled "Unambiguous Measurement of Local Hole Current in Organic Semiconductors Using Conductive Atomic Force Microscopy" is now published in <em>Journal of Physical Chemistry C </em>  </span>
+        </div>
+    </div>
+</div>
 
 <br/><br/>
 

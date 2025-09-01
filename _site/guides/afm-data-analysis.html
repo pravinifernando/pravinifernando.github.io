@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138751175-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-138751175-1');
+    </script>
+
+    <title>AFM Data Analysis Guide</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, , Fernando Research Group, jekyll">
+    <meta name="author" content="">
+    
+    
+    
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="alternate" type="application/rss+xml" title="Fernando Research Group RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="/css/main.css">
+    
+    
+    <!-- Facebook Open Graph -->
+    <meta name="og:description" content="">
+    <meta name="og:title" content="Fernando Research Group">
+    <meta name="og:url" content="/guides/afm-data-analysis.html">
+    <meta name="og:type" content="article">
+    
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Fernando Research Group">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="/guides/afm-data-analysis.html">
+    
+        <meta name="twitter:image" content="">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header-section">
+            <div class="container">
+                <div class="header-content">
+                    <img src="/assets/img/logo/Union_Logo.jpeg" alt="Union College Logo" class="university-logo">
+                    <div class="title-section">
+                        <a id="author-name" href="">Fernando Research Group</a>
+                        <p class="site-subtitle">From Processing to Performance: Understanding Organic Electronic Materials</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-navigation">
+            <div class="container">
+                <ul class="nav-menu">
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                        
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <li class="nav-item"><a href="/about" class="nav-link">About Pravini</a></li>
+                        
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <li class="nav-item"><a href="/team" class="nav-link">Team</a></li>
+                        
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <li class="nav-item"><a href="/publications" class="nav-link">Publications</a></li>
+                        
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <li class="nav-item"><a href="/student-resources" class="nav-link">Student Resources</a></li>
+                        
+                    
+                </ul>
+            </div>
+        </nav>
+        
+            <div class="container content">
+                <h1 id="afm-data-analysis-with-imagej">AFM Data Analysis with ImageJ</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>This guide walks you through analyzing Atomic Force Microscopy (AFM) data using ImageJ software. You’ll learn to process raw AFM images, extract quantitative measurements, and create publication-quality figures.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+  <li>ImageJ software installed (<a href="https://imagej.nih.gov/ij/download.html">Download here</a>)</li>
+  <li>Basic understanding of AFM principles</li>
+  <li>AFM data files (.spm, .tiff, or similar formats)</li>
+</ul>
+
+<hr />
+
+<h2 id="step-1-import-afm-data">Step 1: Import AFM Data</h2>
+
+<h3 id="for-spm-files">For .spm Files:</h3>
+<ol>
+  <li>Open ImageJ</li>
+  <li>Go to <strong>File → Import → Raw…</strong></li>
+  <li>Select your AFM data file</li>
+  <li>Set parameters:
+    <ul>
+      <li><strong>Image type</strong>: 32-bit Real</li>
+      <li><strong>Width</strong>: Check your AFM software specifications</li>
+      <li><strong>Height</strong>: Match the width for square images</li>
+      <li><strong>Number of images</strong>: Usually 1 for topography</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="for-other-formats">For Other Formats:</h3>
+<ul>
+  <li><strong>TIFF files</strong>: Use <strong>File → Open</strong></li>
+  <li><strong>Gwyddion files</strong>: Export as TIFF from Gwyddion first</li>
+</ul>
+
+<hr />
+
+<h2 id="step-2-basic-image-processing">Step 2: Basic Image Processing</h2>
+
+<h3 id="21-flatten-the-image">2.1 Flatten the Image</h3>
+<p>Remove sample tilt and scanner drift:</p>
+
+<ol>
+  <li><strong>Process → Filters → Subtract Background</strong></li>
+  <li>Set <strong>Rolling ball radius</strong>: 50-100 pixels</li>
+  <li>Check <strong>Sliding paraboloid</strong> for better results</li>
+</ol>
+
+<h3 id="22-apply-filters">2.2 Apply Filters</h3>
+<p>Reduce noise while preserving features:</p>
+
+<ol>
+  <li><strong>Process → Filters → Gaussian Blur</strong></li>
+  <li>Set <strong>Sigma</strong>: 0.5-1.0 pixels (start small)</li>
+  <li>For line noise: <strong>Process → FFT → Bandpass Filter</strong></li>
+</ol>
+
+<hr />
+
+<h2 id="step-3-measurements-and-analysis">Step 3: Measurements and Analysis</h2>
+
+<h3 id="31-height-measurements">3.1 Height Measurements</h3>
+<ol>
+  <li>Use <strong>Line</strong> tool to draw across features</li>
+  <li><strong>Analyze → Plot Profile</strong></li>
+  <li>Measure peak-to-valley distances</li>
+  <li>Save data: <strong>Data → Save As…</strong></li>
+</ol>
+
+<h3 id="32-surface-roughness">3.2 Surface Roughness</h3>
+<ol>
+  <li><strong>Analyze → Set Measurements</strong> → Check <strong>Mean</strong>, <strong>StdDev</strong></li>
+  <li>Select region with <strong>Rectangle</strong> tool</li>
+  <li><strong>Analyze → Measure</strong></li>
+  <li>Standard deviation = RMS roughness</li>
+</ol>
+
+<h3 id="33-particle-analysis">3.3 Particle Analysis</h3>
+<ol>
+  <li><strong>Image → Adjust → Threshold</strong></li>
+  <li>Set threshold to highlight particles</li>
+  <li><strong>Analyze → Analyze Particles</strong></li>
+  <li>Set size filters and circularity</li>
+</ol>
+
+<hr />
+
+<h2 id="step-4-creating-publication-figures">Step 4: Creating Publication Figures</h2>
+
+<h3 id="41-scale-bar">4.1 Scale Bar</h3>
+<ol>
+  <li><strong>Analyze → Tools → Scale Bar</strong></li>
+  <li>Set appropriate length (e.g., 1 μm)</li>
+  <li>Choose position and styling</li>
+</ol>
+
+<h3 id="42-color-scale">4.2 Color Scale</h3>
+<ol>
+  <li><strong>Image → Lookup Tables</strong> → Choose appropriate LUT</li>
+  <li><strong>Analyze → Tools → Calibration Bar</strong></li>
+  <li>Position and format as needed</li>
+</ol>
+
+<h3 id="43-export-high-quality-images">4.3 Export High-Quality Images</h3>
+<ol>
+  <li><strong>File → Save As → TIFF</strong></li>
+  <li>For publications: Set to 300 DPI minimum</li>
+  <li><strong>Image → Scale</strong> → Increase size if needed</li>
+</ol>
+
+<hr />
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<h3 id="common-issues">Common Issues:</h3>
+
+<p><strong>Streaky/noisy images:</strong></p>
+<ul>
+  <li>Try median filter: <strong>Process → Filters → Median</strong> (radius 1-2)</li>
+  <li>Check AFM tip condition</li>
+</ul>
+
+<p><strong>Drift or tilt:</strong></p>
+<ul>
+  <li>Use <strong>Process → Subtract Background</strong> with larger rolling ball</li>
+  <li>Manual correction: <strong>Process → Math → Subtract</strong> with fitted plane</li>
+</ul>
+
+<p><strong>Poor contrast:</strong></p>
+<ul>
+  <li><strong>Image → Adjust → Brightness/Contrast</strong></li>
+  <li><strong>Process → Enhance Contrast</strong> (0.1% saturated)</li>
+</ul>
+
+<hr />
+
+<h2 id="advanced-tips">Advanced Tips</h2>
+
+<ol>
+  <li><strong>Batch Processing</strong>: Use <strong>Process → Batch</strong> for multiple files</li>
+  <li><strong>Macros</strong>: Record repetitive tasks with <strong>Plugins → Macros → Record</strong></li>
+  <li><strong>3D Visualization</strong>: <strong>Plugins → 3D → 3D Viewer</strong></li>
+  <li><strong>Line Profile Analysis</strong>: <strong>Plugins → Plot → Profile Plot Tools</strong></li>
+</ol>
+
+<hr />
+
+<h2 id="quick-reference-tables">Quick Reference Tables</h2>
+
+<h3 id="common-imagej-filters">Common ImageJ Filters</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Filter Type</th>
+      <th>Purpose</th>
+      <th>Settings</th>
+      <th>When to Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gaussian Blur</td>
+      <td>Noise reduction</td>
+      <td>Sigma: 0.5-1.0</td>
+      <td>Light noise, preserve edges</td>
+    </tr>
+    <tr>
+      <td>Median</td>
+      <td>Remove outliers</td>
+      <td>Radius: 1-2</td>
+      <td>Salt-and-pepper noise</td>
+    </tr>
+    <tr>
+      <td>Bandpass Filter</td>
+      <td>Remove periodic noise</td>
+      <td>Low: 3, High: 40</td>
+      <td>Line/scan artifacts</td>
+    </tr>
+    <tr>
+      <td>Subtract Background</td>
+      <td>Remove tilt/drift</td>
+      <td>Rolling ball: 50-100</td>
+      <td>Sample tilt, scanner drift</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="typical-afm-parameters">Typical AFM Parameters</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Tapping Mode</th>
+      <th>Contact Mode</th>
+      <th>Units</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scan Rate</td>
+      <td>0.5-2.0</td>
+      <td>0.1-1.0</td>
+      <td>Hz</td>
+    </tr>
+    <tr>
+      <td>Resolution</td>
+      <td>512x512</td>
+      <td>256x256</td>
+      <td>pixels</td>
+    </tr>
+    <tr>
+      <td>Set Point</td>
+      <td>70-90%</td>
+      <td>N/A</td>
+      <td>% of free amplitude</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<!-- 
+## Video Tutorials
+
+### Embedding YouTube Videos
+For step-by-step visual guidance, check out these tutorials:
+
+**ImageJ Basics for AFM:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Advanced AFM Analysis:**
+- [ImageJ Line Profile Analysis](https://www.youtube.com/watch?v=example1)
+- [3D Surface Visualization](https://www.youtube.com/watch?v=example2)
+-->
+
+<hr />
+
+<h2 id="code-examples">Code Examples</h2>
+
+<h3 id="imagej-macro-example">ImageJ Macro Example</h3>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Batch process AFM images</span>
+<span class="nx">dir</span> <span class="o">=</span> <span class="nx">getDirectory</span><span class="p">(</span><span class="dl">"</span><span class="s2">Choose a Directory</span><span class="dl">"</span><span class="p">);</span>
+<span class="nx">list</span> <span class="o">=</span> <span class="nx">getFileList</span><span class="p">(</span><span class="nx">dir</span><span class="p">);</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">list</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">endsWith</span><span class="p">(</span><span class="nx">list</span><span class="p">[</span><span class="nx">i</span><span class="p">],</span> <span class="dl">"</span><span class="s2">.tif</span><span class="dl">"</span><span class="p">))</span> <span class="p">{</span>
+        <span class="nx">open</span><span class="p">(</span><span class="nx">dir</span><span class="o">+</span><span class="nx">list</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+        <span class="nx">run</span><span class="p">(</span><span class="dl">"</span><span class="s2">Subtract Background...</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">rolling=50</span><span class="dl">"</span><span class="p">);</span>
+        <span class="nx">run</span><span class="p">(</span><span class="dl">"</span><span class="s2">Gaussian Blur...</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">sigma=0.5</span><span class="dl">"</span><span class="p">);</span>
+        <span class="nx">saveAs</span><span class="p">(</span><span class="dl">"</span><span class="s2">Tiff</span><span class="dl">"</span><span class="p">,</span> <span class="nx">dir</span><span class="o">+</span><span class="dl">"</span><span class="s2">processed_</span><span class="dl">"</span><span class="o">+</span><span class="nx">list</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+        <span class="nx">close</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="python-data-processing">Python Data Processing</h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">ndimage</span>
+
+<span class="c1"># Load AFM data
+</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s">'afm_data.txt'</span><span class="p">)</span>
+
+<span class="c1"># Apply Gaussian filter
+</span><span class="n">filtered_data</span> <span class="o">=</span> <span class="n">ndimage</span><span class="p">.</span><span class="n">gaussian_filter</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">1.0</span><span class="p">)</span>
+
+<span class="c1"># Calculate roughness
+</span><span class="n">rms_roughness</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">std</span><span class="p">(</span><span class="n">filtered_data</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"RMS Roughness: </span><span class="si">{</span><span class="n">rms_roughness</span><span class="si">:</span><span class="p">.</span><span class="mi">2</span><span class="n">f</span><span class="si">}</span><span class="s"> nm"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="image-examples">Image Examples</h2>
+
+<h3 id="before-and-after-processing">Before and After Processing</h3>
+
+<p><img src="assets/img/placeholder/smiley.png" alt="AFM Raw Data" />
+<em>Figure 1: Raw AFM topography showing noise and tilt</em></p>
+
+<p><img src="assets/img/placeholder/smiley.png" alt="AFM Processed" />
+<em>Figure 2: Same data after background subtraction and filtering</em></p>
+
+<hr />
+
+<h2 id="markdown-formatting-reference">Markdown Formatting Reference</h2>
+
+<h3 id="text-formatting">Text Formatting</h3>
+<ul>
+  <li><strong>Bold text</strong>: <code class="language-plaintext highlighter-rouge">**Bold text**</code></li>
+  <li><em>Italic text</em>: <code class="language-plaintext highlighter-rouge">*Italic text*</code></li>
+  <li><code class="language-plaintext highlighter-rouge">Code text</code>: <code class="language-plaintext highlighter-rouge">`Code text`</code></li>
+  <li><del>Strikethrough</del>: <code class="language-plaintext highlighter-rouge">~~Strikethrough~~</code></li>
+</ul>
+
+<h3 id="lists">Lists</h3>
+<p><strong>Numbered List:</strong></p>
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol>
+
+<p><strong>Bullet List:</strong></p>
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ul>
+
+<h3 id="links-and-references">Links and References</h3>
+<ul>
+  <li><a href="https://example.com">External link</a></li>
+  <li><a href="../student-resources">Internal page link</a></li>
+  <li><a href="mailto:fernando@union.edu">Email link</a></li>
+</ul>
+
+<h3 id="blockquotes">Blockquotes</h3>
+<blockquote>
+  <p><strong>Important Note:</strong> Always backup your original AFM data before processing. ImageJ operations can be destructive if not used carefully.</p>
+</blockquote>
+
+<h3 id="alert-boxes">Alert Boxes</h3>
+<p>⚠️ <strong>Warning:</strong> High voltage components - ensure proper safety training before use.</p>
+
+<p>✅ <strong>Tip:</strong> Save intermediate processing steps to track your workflow.</p>
+
+<p>📝 <strong>Note:</strong> Contact lab members if you encounter unusual artifacts in your data.</p>
+
+<hr />
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li><a href="https://imagej.nih.gov/ij/docs/guide/">ImageJ User Guide</a></li>
+  <li><a href="https://www.youtube.com/watch?v=example">AFM Image Analysis Tutorial</a></li>
+  <li>Lab SOPs: Contact Dr. Fernando for detailed protocols</li>
+</ul>
+
+<hr />
+
+<p><strong>Questions?</strong> Contact lab members or attend the weekly ImageJ training session (Fridays 2 PM, Lab 204).</p>
+
+<p><strong>Last Updated</strong>: August 2024</p>
+
+            </div>
+        
+    </div>
+    <!--
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-138751175-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+     -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+</body>
