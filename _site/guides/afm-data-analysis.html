@@ -30,7 +30,7 @@
     <!-- Facebook Open Graph -->
     <meta name="og:description" content="">
     <meta name="og:title" content="Fernando Research Group">
-    <meta name="og:url" content="http://localhost:4000/guides/afm-data-analysis.html">
+    <meta name="og:url" content="/guides/afm-data-analysis.html">
     <meta name="og:type" content="article">
     
     
@@ -38,7 +38,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Fernando Research Group">
     <meta name="twitter:description" content="">
-    <meta name="twitter:url" content="http://localhost:4000/guides/afm-data-analysis.html">
+    <meta name="twitter:url" content="/guides/afm-data-analysis.html">
     
         <meta name="twitter:image" content="">
     
@@ -362,34 +362,34 @@ For step-by-step visual guidance, check out these tutorials:
 
 <h3 id="imagej-macro-example">ImageJ Macro Example</h3>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Batch process AFM images</span>
-<span class="nx">dir</span> <span class="o">=</span> <span class="nx">getDirectory</span><span class="p">(</span><span class="dl">"</span><span class="s2">Choose a Directory</span><span class="dl">"</span><span class="p">);</span>
-<span class="nx">list</span> <span class="o">=</span> <span class="nx">getFileList</span><span class="p">(</span><span class="nx">dir</span><span class="p">);</span>
+<span class="nx">dir</span> <span class="o">=</span> <span class="nf">getDirectory</span><span class="p">(</span><span class="dl">"</span><span class="s2">Choose a Directory</span><span class="dl">"</span><span class="p">);</span>
+<span class="nx">list</span> <span class="o">=</span> <span class="nf">getFileList</span><span class="p">(</span><span class="nx">dir</span><span class="p">);</span>
 
-<span class="k">for</span> <span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">list</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">endsWith</span><span class="p">(</span><span class="nx">list</span><span class="p">[</span><span class="nx">i</span><span class="p">],</span> <span class="dl">"</span><span class="s2">.tif</span><span class="dl">"</span><span class="p">))</span> <span class="p">{</span>
-        <span class="nx">open</span><span class="p">(</span><span class="nx">dir</span><span class="o">+</span><span class="nx">list</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
-        <span class="nx">run</span><span class="p">(</span><span class="dl">"</span><span class="s2">Subtract Background...</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">rolling=50</span><span class="dl">"</span><span class="p">);</span>
-        <span class="nx">run</span><span class="p">(</span><span class="dl">"</span><span class="s2">Gaussian Blur...</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">sigma=0.5</span><span class="dl">"</span><span class="p">);</span>
-        <span class="nx">saveAs</span><span class="p">(</span><span class="dl">"</span><span class="s2">Tiff</span><span class="dl">"</span><span class="p">,</span> <span class="nx">dir</span><span class="o">+</span><span class="dl">"</span><span class="s2">processed_</span><span class="dl">"</span><span class="o">+</span><span class="nx">list</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
-        <span class="nx">close</span><span class="p">();</span>
+<span class="k">for </span><span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">list</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if </span><span class="p">(</span><span class="nf">endsWith</span><span class="p">(</span><span class="nx">list</span><span class="p">[</span><span class="nx">i</span><span class="p">],</span> <span class="dl">"</span><span class="s2">.tif</span><span class="dl">"</span><span class="p">))</span> <span class="p">{</span>
+        <span class="nf">open</span><span class="p">(</span><span class="nx">dir</span><span class="o">+</span><span class="nx">list</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+        <span class="nf">run</span><span class="p">(</span><span class="dl">"</span><span class="s2">Subtract Background...</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">rolling=50</span><span class="dl">"</span><span class="p">);</span>
+        <span class="nf">run</span><span class="p">(</span><span class="dl">"</span><span class="s2">Gaussian Blur...</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">sigma=0.5</span><span class="dl">"</span><span class="p">);</span>
+        <span class="nf">saveAs</span><span class="p">(</span><span class="dl">"</span><span class="s2">Tiff</span><span class="dl">"</span><span class="p">,</span> <span class="nx">dir</span><span class="o">+</span><span class="dl">"</span><span class="s2">processed_</span><span class="dl">"</span><span class="o">+</span><span class="nx">list</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+        <span class="nf">close</span><span class="p">();</span>
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
 <h3 id="python-data-processing">Python Data Processing</h3>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
-<span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">ndimage</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="n">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">from</span> <span class="n">scipy</span> <span class="kn">import</span> <span class="n">ndimage</span>
 
 <span class="c1"># Load AFM data
-</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s">'afm_data.txt'</span><span class="p">)</span>
+</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">loadtxt</span><span class="p">(</span><span class="sh">'</span><span class="s">afm_data.txt</span><span class="sh">'</span><span class="p">)</span>
 
 <span class="c1"># Apply Gaussian filter
-</span><span class="n">filtered_data</span> <span class="o">=</span> <span class="n">ndimage</span><span class="p">.</span><span class="n">gaussian_filter</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">1.0</span><span class="p">)</span>
+</span><span class="n">filtered_data</span> <span class="o">=</span> <span class="n">ndimage</span><span class="p">.</span><span class="nf">gaussian_filter</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">1.0</span><span class="p">)</span>
 
 <span class="c1"># Calculate roughness
-</span><span class="n">rms_roughness</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">std</span><span class="p">(</span><span class="n">filtered_data</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"RMS Roughness: </span><span class="si">{</span><span class="n">rms_roughness</span><span class="si">:</span><span class="p">.</span><span class="mi">2</span><span class="n">f</span><span class="si">}</span><span class="s"> nm"</span><span class="p">)</span>
+</span><span class="n">rms_roughness</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">std</span><span class="p">(</span><span class="n">filtered_data</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">RMS Roughness: </span><span class="si">{</span><span class="n">rms_roughness</span><span class="si">:</span><span class="p">.</span><span class="mi">2</span><span class="n">f</span><span class="si">}</span><span class="s"> nm</span><span class="sh">"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <hr />
