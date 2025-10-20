@@ -72,6 +72,19 @@ to provide a broader understanding of processing, morphology, and charge transpo
     <h3>Recent News</h3>
     <div class="news-items">
         <div class="news-item">
+            <span class="news-date">October 2025</span>
+            <span class="news-content">Our abstract “Beyond the Majority Rules Principle: Asymmetric Packing in TPT-T Conjugated Polymer Leading to
+Homochiral Films” has been accepted for a poster presentation at the MRS Fall Meeting 2025 in Boston this December!</span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">October 2025</span>
+            <span class="news-content">Dr. Fernando received a Union College Faculty Research Fund award to support the project “Exploring Green Processing Strategies for Highly Conductive Polymer-Based Electrodes”</span>
+        </div>
+         <div class="news-item">
+            <span class="news-date">September 2025</span>
+            <span class="news-content">Dr. Fernando received a Union College Conference Travel Fund award to attend the Materials Research Society (MRS) Fall Meeting in Boston this December</span>
+        </div>
+        <div class="news-item">
             <span class="news-date">September 2025</span>
             <span class="news-content">Dr. Fernando joins Union College as an Assistant Professor of Physics & Astronomy</span>
         </div>
@@ -102,37 +115,5 @@ to provide a broader understanding of processing, morphology, and charge transpo
         </div>
     </div>
 </div>
-
-<br/><br/>
-
-
-
-<!--
-## Typography
-
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
-
----
-
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
--->
-
 
 
