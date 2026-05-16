@@ -966,6 +966,9 @@ ul {
     overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     
     &:hover {
         transform: translateY(-4px);
@@ -998,6 +1001,7 @@ ul {
     text-align: center;
     background: white;
     border-top: 1px solid rgba(118, 35, 52, 0.1);
+    flex: 1;
     
     @media (max-width: 768px) {
         padding: 1rem;
