@@ -78,11 +78,13 @@ const galleryPhotos = [
 
 // Auto-generate carousel from all photos
 function generateCarousel() {
+    const carouselPhotos = [...galleryPhotos]
+        .sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
     const carouselSlides = document.getElementById('carousel-slides');
     const carouselDots = document.getElementById('carousel-dots');
     
     // Generate slides
-    carouselSlides.innerHTML = galleryPhotos.map((photo, index) => `
+    carouselSlides.innerHTML = carouselPhotos.map((photo, index) => `
         <div class="carousel-slide ${index === 0 ? 'active' : ''}">
             <img src="${photo.src}" alt="${photo.alt}">
             <div class="carousel-caption">${photo.caption} - ${photo.date}</div>
@@ -90,7 +92,7 @@ function generateCarousel() {
     `).join('');
     
     // Generate dots
-    carouselDots.innerHTML = galleryPhotos.map((_, index) => `
+    carouselDots.innerHTML = carouselPhotos.map((_, index) => `
         <span class="dot ${index === 0 ? 'active' : ''}" onclick="currentSlide(${index + 1})"></span>
     `).join('');
 }
