@@ -15,16 +15,27 @@ The Fernando Research Group investigates sustainable organic electronic material
 ## Current Students
 
 <div class="team-grid">
-    <!-- Student cards will go here -->
     <div class="student-card">
         <div class="student-info">
             <div class="student-image">
-                <img src="/assets/img/placeholder/smiley.png" alt="Student" onerror="this.style.display='none'">
+                <img src="/assets/img/team/eloise.jpg" alt="Eloise Kelen" onerror="this.style.display='none'">
             </div>
             <div class="student-details">
-                <h3>Currently Recruiting</h3>
-                <p class="student-year">Undergraduate Research Positions Available</p>
-                <p class="student-description">We are actively seeking motivated undergraduate students interested in materials physics, organic electronics, and sustainable materials research. Join our growing research group!</p>
+                <h3>Eloise Kelen</h3>
+                <p class="student-year">Sophomore, Physics (Minors: Astrophysics, Chinese)</p>
+                <p class="student-description">Hi! My name is Eloise Kelen, and I am a sophomore Physics student at Union College. I am also pursuing minors in Astrophysics and Chinese. In my free time, I enjoy cooking, reading, and enjoying the outdoors!</p>
+            </div>
+        </div>
+    </div>
+    <div class="student-card">
+        <div class="student-info">
+            <div class="student-image">
+                <img src="/assets/img/team/nadya.jpeg" alt="Nadya Khairul Azhar" onerror="this.style.display='none'">
+            </div>
+            <div class="student-details">
+                <h3>Nadya Khairul Azhar</h3>
+                <p class="student-year">Sophomore, Physics (Minors: Astrophysics, Mathematics)</p>
+                <p class="student-description">Hi! I'm Nadya Khairul Azhar, a sophomore at Union College pursuing a BS in Physics, minoring in Astrophysics and Mathematics. I enjoy painting and baking for friends and family!</p>
             </div>
         </div>
     </div>

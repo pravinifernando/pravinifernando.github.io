@@ -492,9 +492,10 @@ ul {
 // Team page styling
 .team-grid, .alumni-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
     gap: 2rem;
     margin: 2rem 0;
+    max-width: 100%;
 }
 
 .student-card, .alumni-card {
