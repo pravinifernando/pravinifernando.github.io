@@ -3,10 +3,6 @@ layout: default
 title: "Gallery"
 ---
 
-## Group Photos
-
-<i class="fab fa-instagram" style="color: #762334;"></i> Follow us on [Instagram @fernandoresearchgroup](https://instagram.com/fernandoresearchgroup) for more lab moments and research updates!
-
 <div class="carousel-container">
     <div class="carousel-slides" id="carousel-slides">
         <!-- Auto-generated from group photos -->
@@ -30,7 +26,7 @@ title: "Gallery"
 <div id="lightbox" class="lightbox" onclick="closeLightbox()">
     <div class="lightbox-content">
         <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
-        <img id="lightbox-img" src="" alt="">
+        <img id="lightbox-img" src="assets/img/gallery/union_spring_2026.jpg" alt="">
         <div id="lightbox-caption" class="lightbox-caption"></div>
     </div>
 </div>
@@ -38,111 +34,55 @@ title: "Gallery"
 <script>
 // Centralized photo data - Add new photos here
 const galleryPhotos = [
-    // December 2024
     {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "Research Group End-of-Year Celebration",
-        date: "December 2024",
-        caption: "Research group end-of-year celebration",
-        isGroupPhoto: true
+        src: "assets/img/gallery/union_spring_2026.jpg",
+        alt: "Union College getting ready for spring",
+        date: "Spring 2026",
+        sortDate: "2026-04-01",
+        caption: "Union College getting ready for spring",
+        showInGallery: false
     },
     {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "Paper Celebration",
-        date: "December 2024",
-        caption: "Celebrating paper acceptance in Nature Materials",
-        isGroupPhoto: false
-    },
-    
-    // November 2024
-    {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "Fall 2024 Group Photo",
-        date: "November 2024",
-        caption: "Fall 2024 group photo with new PhD students",
-        isGroupPhoto: true
+        src: "assets/img/gallery/union_fall_2025.jpg",
+        alt: "Union College in the fall",
+        date: "Fall 2025",
+        sortDate: "2025-10-01",
+        caption: "Union College in the fall",
+        showInGallery: false
     },
     {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "Conference Presentation",
-        date: "November 2024",
-        caption: "Presenting research at the Materials Research Society conference",
-        isGroupPhoto: false
+        src: "assets/img/gallery/mrs_december_2025.jpg",
+        alt: "Presenting at the MRS Fall Meeting 2025",
+        date: "December 2025",
+        sortDate: "2025-12-01",
+        caption: "Presenting at the MRS Fall Meeting 2025 in Boston",
+        showInGallery: true
     },
     {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "Lab Training Session",
-        date: "November 2024",
-        caption: "Training session on spectroscopy instrumentation",
-        isGroupPhoto: false
-    },
-    
-    // October 2024
-    {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "Collaboration Meeting",
-        date: "October 2024",
-        caption: "Collaboration meeting with researchers from Brookhaven National Lab",
-        isGroupPhoto: false
+        src: "assets/img/gallery/binghamton_invited_talk_february_2026.jpg",
+        alt: "Invited talk at Binghamton University",
+        date: "February 2026",
+        sortDate: "2026-02-01",
+        caption: "Invited talk at Binghamton University",
+        showInGallery: true
     },
     {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "STEM Outreach Event",
-        date: "October 2024",
-        caption: "High school students visiting the lab for STEM outreach",
-        isGroupPhoto: false
-    },
-    
-    // September 2024
-    {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "AFM Operation",
-        date: "September 2024",
-        caption: "Student operating the atomic force microscope",
-        isGroupPhoto: false
-    },
-    {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "Device Fabrication",
-        date: "September 2024",
-        caption: "Device fabrication in the controlled atmosphere glove box",
-        isGroupPhoto: false
-    },
-    
-    // August 2024
-    {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "Summer 2024 REU Group",
-        date: "August 2024",
-        caption: "Summer 2024 REU program group photo",
-        isGroupPhoto: true
-    },
-    {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "Research Group Meeting",
-        date: "August 2024",
-        caption: "Weekly research group meeting discussing latest findings",
-        isGroupPhoto: false
-    },
-    
-    // July 2024
-    {
-        src: "assets/img/placeholder/smiley.png",
-        alt: "Spring 2024 Conference Group",
-        date: "July 2024",
-        caption: "Spring 2024 lab group after successful conference presentations",
-        isGroupPhoto: true
+        src: "assets/img/gallery/glovebox_installation.jpg",
+        alt: "Installation of our custom-made glovebox system for the lab",
+        date: "May 2026",
+        sortDate: "2026-05-01",
+        caption: "Installation of our custom-made glovebox system for the lab",
+        showInGallery: true
     }
 ];
 
-// Auto-generate carousel from group photos
+// Auto-generate carousel from all photos
 function generateCarousel() {
-    const groupPhotos = galleryPhotos.filter(photo => photo.isGroupPhoto);
     const carouselSlides = document.getElementById('carousel-slides');
     const carouselDots = document.getElementById('carousel-dots');
     
     // Generate slides
-    carouselSlides.innerHTML = groupPhotos.map((photo, index) => `
+    carouselSlides.innerHTML = galleryPhotos.map((photo, index) => `
         <div class="carousel-slide ${index === 0 ? 'active' : ''}">
             <img src="${photo.src}" alt="${photo.alt}">
             <div class="carousel-caption">${photo.caption} - ${photo.date}</div>
@@ -150,7 +90,7 @@ function generateCarousel() {
     `).join('');
     
     // Generate dots
-    carouselDots.innerHTML = groupPhotos.map((_, index) => `
+    carouselDots.innerHTML = galleryPhotos.map((_, index) => `
         <span class="dot ${index === 0 ? 'active' : ''}" onclick="currentSlide(${index + 1})"></span>
     `).join('');
 }
@@ -158,8 +98,11 @@ function generateCarousel() {
 // Auto-generate gallery grid from all photos
 function generateGallery() {
     const galleryGrid = document.getElementById('gallery-grid');
+    const galleryOnlyPhotos = galleryPhotos
+        .filter(photo => photo.showInGallery)
+        .sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
     
-    galleryGrid.innerHTML = galleryPhotos.map(photo => `
+    galleryGrid.innerHTML = galleryOnlyPhotos.map(photo => `
         <div class="gallery-item" onclick="openLightbox('${photo.src}', '${photo.alt}', '${photo.date}')">
             <img src="${photo.src}" alt="${photo.alt}">
             <div class="gallery-caption">

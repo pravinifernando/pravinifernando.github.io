@@ -16,5 +16,5 @@
 - name: "Student Resources"  
   link: "/student-resources"
 
-#- name: "Gallery"
-#  link: "/gallery"
+- name: "Gallery"
+  link: "/gallery"

@@ -808,13 +808,13 @@ ul {
 
 .carousel-slides {
     position: relative;
-    height: 500px;
+    height: 560px;
     display: flex;
     align-items: center;
     justify-content: center;
     
     @media (max-width: 768px) {
-        height: 350px;
+        height: 380px;
     }
 }
 
@@ -973,7 +973,8 @@ ul {
         border-color: rgba(118, 35, 52, 0.2);
     }
     
-    img {
+    img,
+    .content & img {
         width: 100%;
         height: 250px;
         object-fit: cover;
