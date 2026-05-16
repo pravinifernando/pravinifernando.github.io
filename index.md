@@ -61,6 +61,7 @@ to provide a broader understanding of processing, morphology, and charge transpo
             <div class="research-publications">
                 <strong>Recent Publications:</strong>
                 <ul>
+                    <li><a href="https://pubs.acs.org/doi/10.1021/acsaelm.6c00088">Enhanced Piezoelectric Effect in P(VDF-TrFE) through Synergistic Templating by PEDOT:PSS and Paper</a> – <em>ACS Applied Electronic Materials</em> (2026)</li>
                     <li><a href="https://pubs.acs.org/doi/10.1021/acs.chemmater.3c03055">Tuning the Solution Aggregate Structure of a PM7-Based Conjugated Polymer to Enable Green Solvent Processing of Organic Solar Cells</a> – <em>Chemistry of Materials</em> (2024)</li>
                 </ul>
             </div>
@@ -71,6 +72,26 @@ to provide a broader understanding of processing, morphology, and charge transpo
 <div class="news-section">
     <h3>Recent News</h3>
     <div class="news-items">
+        <div class="news-item">
+            <span class="news-date">April 2026</span>
+            <span class="news-content">Congratulations to Eloise and Nadya on receiving summer 2026 research fellowships! Eloise was awarded the Lee Davenport Summer Research Fellowship, and Nadya was awarded the Surdna Foundation Summer Research Fellowship</span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">March 2026</span>
+            <span class="news-content">Excited to see our collaborative paper with researchers at Binghamton University, “Enhanced Piezoelectric Effect in P(VDF-TrFE) through Synergistic Templating by PEDOT:PSS and Paper,” published in <em>ACS Applied Electronic Materials</em></span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">February 2026</span>
+            <span class="news-content">Dr. Fernando delivered an invited talk on “How Processing Shapes Structure and Function in Sustainable Polymer Electronics” at Binghamton University’s Department of Materials Science and Engineering</span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">January 2026</span>
+            <span class="news-content">Dr. Fernando delivered an invited talk on “Beyond the Majority Rules Principle: Asymmetric Packing in TPT-T Conjugated Polymer Leading to Homochiral Films” at the Center for Complex Particle Systems (COMPASS) All-Hands Meeting</span>
+        </div>
+        <div class="news-item">
+            <span class="news-date">December 2025</span>
+            <span class="news-content">Dr. Fernando presented the poster “Beyond the Majority Rules Principle: Asymmetric Packing in TPT-T Conjugated Polymer Leading to Homochiral Films” at the MRS Fall Meeting 2025 in Boston</span>
+        </div>
         <div class="news-item">
             <span class="news-date">October 2025</span>
             <span class="news-content">Our abstract “Beyond the Majority Rules Principle: Asymmetric Packing in TPT-T Conjugated Polymer Leading to
@@ -115,5 +136,3 @@ Homochiral Films” has been accepted for a poster presentation at the MRS Fall 
         </div>
     </div>
 </div>
-
-

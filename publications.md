@@ -7,6 +7,24 @@ title: "Publications"
 
 <div class="publication-list">
 
+<h2 class="publication-year">2026</h2>
+
+<div class="publication-item with-image">
+    <div class="publication-content">
+        <div class="publication-title">Enhanced Piezoelectric Effect in P(VDF-TrFE) through Synergistic Templating by PEDOT:PSS and Paper</div>
+        <div class="publication-authors">Wu, Xiangyi; Peiris, M. D. Hashan C.; <span class="author-highlight">Fernando, Pravini S</span>; Sharma, Anju; Dorsainvil, Joab; Koh, Ahyeon; Smeu, Manuel; Mativetsky, Jeffrey M.</div>
+        <div class="publication-venue">ACS Applied Electronic Materials, 2026.</div>
+        <div class="publication-links">
+            <a href="https://pubs.acs.org/doi/10.1021/acsaelm.6c00088">DOI Link</a>
+        </div>
+    </div>
+    <div class="publication-image" style="flex: 0 0 auto; width:300px; margin:0 auto;">
+    <img src="/assets/img/publications/2026_pedotpss.jpeg" 
+         alt="PEDOT:PSS piezoelectric paper composite publication" 
+         style="width:100%; height:auto; display:block;">
+    </div>
+</div>
+
 <h2 class="publication-year">2025</h2>
 
 <div class="publication-item with-image">
