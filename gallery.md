@@ -73,6 +73,14 @@ const galleryPhotos = [
         sortDate: "2026-05-01",
         caption: "Installation of our custom-made glovebox system for the lab",
         showInGallery: true
+    },
+    {
+        src: "assets/img/gallery/glovebox_ready_spin_coating_june_2026.jpg",
+        alt: "Glovebox ready for spin coating thin films",
+        date: "June 2026",
+        sortDate: "2026-06-11",
+        caption: "Our glovebox is now ready to use, with the capability to spin coat thin films inside",
+        showInGallery: true
     }
 ];
 
