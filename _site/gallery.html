@@ -157,6 +157,15 @@
 // Centralized photo data - Add new photos here
 const galleryPhotos = [
     {
+        src: "assets/img/gallery/summer_research_poster_session_july_2026.jpg",
+        alt: "Nadya and Eloise present their first poster at the 2026 Summer Research Poster Session",
+        date: "July 2026",
+        sortDate: "2026-07-27",
+        caption: "Nadya and Eloise present their first poster at the 2026 Summer Research Poster Session",
+        showInCarousel: false,
+        showInGallery: true
+    },
+    {
         src: "assets/img/gallery/union_spring_2026.jpg",
         alt: "Union College getting ready for spring",
         date: "Spring 2026",
@@ -210,9 +219,10 @@ const galleryPhotos = [
 function generateCarousel() {
     const carouselSlides = document.getElementById('carousel-slides');
     const carouselDots = document.getElementById('carousel-dots');
+    const carouselPhotos = galleryPhotos.filter(photo => photo.showInCarousel !== false);
     
     // Generate slides
-    carouselSlides.innerHTML = galleryPhotos.map((photo, index) => `
+    carouselSlides.innerHTML = carouselPhotos.map((photo, index) => `
         <div class="carousel-slide ${index === 0 ? 'active' : ''}">
             <img src="${photo.src}" alt="${photo.alt}">
             <div class="carousel-caption">${photo.caption} - ${photo.date}</div>
@@ -220,7 +230,7 @@ function generateCarousel() {
     `).join('');
     
     // Generate dots
-    carouselDots.innerHTML = galleryPhotos.map((_, index) => `
+    carouselDots.innerHTML = carouselPhotos.map((_, index) => `
         <span class="dot ${index === 0 ? 'active' : ''}" onclick="currentSlide(${index + 1})"></span>
     `).join('');
 }
