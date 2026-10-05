@@ -52,6 +52,7 @@ Her work integrates materials physics with green processing strategies to advanc
 
 ## Distinctions and Awards
 
+- Featured as Emerging Investigator in *Royal Society of Chemistry's Journal of Materials Chemistry C (2026)*
 - Recipient of Harpur first year graduate award, Binghamton University, State University of New York, USA (2017)
 - Sigma Pi Sigma, National Physics Honor Society - *Issued by Sigma Pi Sigma Honor Society · January 2018*
 - Recipient of Joseph Nalliah Arumugum memorial prize for the highest academic competence in Faculty of Science, University of Colombo, Sri Lanka (2017)
